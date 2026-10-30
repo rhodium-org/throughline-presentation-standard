@@ -1,6 +1,6 @@
 uid: RULE-0008
 type: rule
-status: proposed
+status: ratified
 title: An interest is a kind of item a series holds
 text: An interest is one thing a series' audience wants from it. It derives from
   its series.
@@ -11,4 +11,15 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:16Z'
+  fingerprint: sha256:6d8a57fca7390e0d74740364f1285ba9f6ecec718dee07fcfc5f3ce46394bc35
+  content:
+    type: rule
+    text: An interest is one thing a series' audience wants from it. It derives from
+      its series.
+    normative: true
+    derived: false
+    attrs: {}
 key: f6316b3d-64ce-4eef-91bd-c2be4e581ea3

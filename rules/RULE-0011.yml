@@ -1,6 +1,6 @@
 uid: RULE-0011
 type: rule
-status: proposed
+status: ratified
 title: A series's audience
 text: 'A series may record audience: who the series is for, in a sentence or two.
   Its value is text. Required. Part of what a signature on the item covers.'
@@ -14,4 +14,15 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:17Z'
+  fingerprint: sha256:0308e0cadf5a39ecd0cb9082c43d5811a581f879eeb78f05a56b32c6ddd4c86f
+  content:
+    type: rule
+    text: 'A series may record audience: who the series is for, in a sentence or
+      two. Its value is text. Required. Part of what a signature on the item covers.'
+    normative: true
+    derived: false
+    attrs: {}
 key: f1758da7-13b0-4d11-8520-613d8271976a

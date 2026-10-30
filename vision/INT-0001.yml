@@ -1,6 +1,6 @@
 uid: INT-0001
 type: intent
-status: proposed
+status: ratified
 title: One model every presentation series is written in
 text: 'Every presentation series, whoever keeps it, is written in one model: the
   same kinds of item, attributes, links and lifecycle, taken from this standard and
@@ -13,4 +13,17 @@ rationale: Six series graphs each held a hand copy of one model and drifted to f
 normative: false
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:23:42Z'
+  fingerprint: sha256:65c9643be8009e168db1aa6623f16bdded12a0d8166d04004ef71b74b9fb28b7
+  content:
+    type: intent
+    text: 'Every presentation series, whoever keeps it, is written in one model:
+      the same kinds of item, attributes, links and lifecycle, taken from this standard
+      and never copied. The model holds content; how a deck looks belongs to whoever
+      renders it.'
+    normative: false
+    derived: false
+    attrs: {}
 key: e6f166e9-fb62-4f86-a308-a6e8425372a5

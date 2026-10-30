@@ -1,6 +1,6 @@
 uid: RULE-0021
 type: rule
-status: proposed
+status: ratified
 title: A edition's basis
 text: 'A edition may record basis: whether the edition is written from the graph
   or carried over from before the graph. Its value is one of graph, legacy. Required.'
@@ -14,4 +14,15 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:19Z'
+  fingerprint: sha256:ab7452b25d5445311f3ffc4675bd8b1d2baf54757981cb248be359c96aa05cb1
+  content:
+    type: rule
+    text: 'A edition may record basis: whether the edition is written from the graph
+      or carried over from before the graph. Its value is one of graph, legacy. Required.'
+    normative: true
+    derived: false
+    attrs: {}
 key: 67a1a27f-948b-463a-a237-b36c13f494c4

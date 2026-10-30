@@ -1,6 +1,6 @@
 uid: RULE-0037
 type: rule
-status: proposed
+status: ratified
 title: A thread's changed since
 text: 'A thread may record changed_since: what changed since the edition before.
   Its value is text.'
@@ -14,4 +14,15 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:23Z'
+  fingerprint: sha256:cd9e99e9d8b0bb16077047df08c55dcb5f75ea3dc622983b0793342a19bfbdce
+  content:
+    type: rule
+    text: 'A thread may record changed_since: what changed since the edition before.
+      Its value is text.'
+    normative: true
+    derived: false
+    attrs: {}
 key: e84192ae-f26f-4ae8-b31f-7f6ac2507e77

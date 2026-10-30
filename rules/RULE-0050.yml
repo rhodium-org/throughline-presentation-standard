@@ -1,6 +1,6 @@
 uid: RULE-0050
 type: rule
-status: proposed
+status: ratified
 title: A role's tools
 text: 'A role may record tools: the tools of the role''s trade, one to a line. Its
   value is text. Required. Part of what a signature on the item covers.'
@@ -14,4 +14,15 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:26Z'
+  fingerprint: sha256:55e29f0d46773c86d980a37115c9af7d4323520ef289dbc728b155988f32c1ea
+  content:
+    type: rule
+    text: 'A role may record tools: the tools of the role''s trade, one to a line.
+      Its value is text. Required. Part of what a signature on the item covers.'
+    normative: true
+    derived: false
+    attrs: {}
 key: d3f21de8-4188-4b30-bb5d-456a364db01e

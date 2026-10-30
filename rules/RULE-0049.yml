@@ -1,6 +1,6 @@
 uid: RULE-0049
 type: rule
-status: proposed
+status: ratified
 title: A role's tasks
 text: 'A role may record tasks: what the role does on an engagement, one to a line.
   Its value is text. Required. Part of what a signature on the item covers.'
@@ -14,4 +14,15 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:25Z'
+  fingerprint: sha256:8b9a7ed3bd761839765f532c7648cd48187f9cbdda3b92c2e679e8e08bff4e3f
+  content:
+    type: rule
+    text: 'A role may record tasks: what the role does on an engagement, one to a
+      line. Its value is text. Required. Part of what a signature on the item covers.'
+    normative: true
+    derived: false
+    attrs: {}
 key: eb465f8d-c765-4948-8131-ff69fa0a79cc

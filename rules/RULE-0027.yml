@@ -1,6 +1,6 @@
 uid: RULE-0027
 type: rule
-status: proposed
+status: ratified
 title: A edition's presenter
 text: 'A edition may record presenter: who presents the edition. Its value is text.'
 rationale: 'Declared in throughline.toml as [types.edition] attrs.presenter = {"type":
@@ -13,4 +13,15 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:20Z'
+  fingerprint: sha256:3198bc7c33031803dd312309da9b0ebf1e88ba524fe3eff5f9e6044ea87c86b3
+  content:
+    type: rule
+    text: 'A edition may record presenter: who presents the edition. Its value is
+      text.'
+    normative: true
+    derived: false
+    attrs: {}
 key: 8b85b691-9557-49e2-a51a-5be4f976c9c1

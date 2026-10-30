@@ -1,6 +1,6 @@
 uid: NG-0003
 type: non_goal
-status: proposed
+status: ratified
 title: No tenant's content or settings
 text: No series, deck, source, claim or setting of any tenant is in the standard;
   only the model they are written in.
@@ -11,4 +11,15 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:23:46Z'
+  fingerprint: sha256:34baa3c91d57e71e16c7547d4118aca0a13a00c5a22e15c5d38a162d9346e9e2
+  content:
+    type: non_goal
+    text: No series, deck, source, claim or setting of any tenant is in the standard;
+      only the model they are written in.
+    normative: false
+    derived: false
+    attrs: {}
 key: 9b8179bf-5efc-4c07-a736-b35c1466c780

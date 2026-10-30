@@ -1,6 +1,6 @@
 uid: RULE-0045
 type: rule
-status: proposed
+status: ratified
 title: A claim's role
 text: 'A claim may record role: whether the claim is news, background, guidance or
   about a product. Its value is one of news, background, guidance, product. Required.
@@ -16,4 +16,16 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:24Z'
+  fingerprint: sha256:dc41e132af77f1e8c36412ecadb66b28c8cc9f7e534bbede043ca875ea34e8f5
+  content:
+    type: rule
+    text: 'A claim may record role: whether the claim is news, background, guidance
+      or about a product. Its value is one of news, background, guidance, product.
+      Required. Part of what a signature on the item covers.'
+    normative: true
+    derived: false
+    attrs: {}
 key: 479a49c0-ce07-4a2e-a3e4-507e2141fe33

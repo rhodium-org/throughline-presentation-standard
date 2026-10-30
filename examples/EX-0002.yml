@@ -1,6 +1,6 @@
 uid: EX-0002
 type: example
-status: proposed
+status: ratified
 title: A source whose checked day is not a date
 text: conformance/bad-date holds a source whose checked value is not a calendar date.
   tl check reports attribute-kind for it.
@@ -12,4 +12,15 @@ links:
   type: verifies
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:27Z'
+  fingerprint: sha256:0ce0a5faf7e09937f45d23bad13ef7a91d94b571a65377d7a522c1e04e7676cb
+  content:
+    type: example
+    text: conformance/bad-date holds a source whose checked value is not a calendar
+      date. tl check reports attribute-kind for it.
+    normative: false
+    derived: false
+    attrs: {}
 key: 064c98b4-0155-4cb0-a8c0-12fc9c4ad47f

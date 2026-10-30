@@ -1,6 +1,6 @@
 uid: RULE-0036
 type: rule
-status: proposed
+status: ratified
 title: A thread's order
 text: 'A thread may record order: the thread''s place in its edition. Its value is
   a whole number.'
@@ -14,4 +14,15 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:22Z'
+  fingerprint: sha256:3eba58647ca6004d59c13f5dfee54648138e3abccbf58e7268e429175fb5b363
+  content:
+    type: rule
+    text: 'A thread may record order: the thread''s place in its edition. Its value
+      is a whole number.'
+    normative: true
+    derived: false
+    attrs: {}
 key: 9ef65c6d-a129-466d-b947-d417bda7da09

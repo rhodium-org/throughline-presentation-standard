@@ -1,6 +1,6 @@
 uid: RULE-0041
 type: rule
-status: proposed
+status: ratified
 title: A source's publisher
 text: 'A source may record publisher: who published it. Its value is text. Required.
   Part of what a signature on the item covers.'
@@ -14,4 +14,15 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:24Z'
+  fingerprint: sha256:bad1862eef08394ae474ddb595d7e844c6dd3e5eb7cd843b2f710051ed95b550
+  content:
+    type: rule
+    text: 'A source may record publisher: who published it. Its value is text. Required.
+      Part of what a signature on the item covers.'
+    normative: true
+    derived: false
+    attrs: {}
 key: 401d2e29-60b3-472a-b54e-c1059afcf464

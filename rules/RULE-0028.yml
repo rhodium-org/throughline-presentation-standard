@@ -1,6 +1,6 @@
 uid: RULE-0028
 type: rule
-status: proposed
+status: ratified
 title: A edition's presenter role
 text: 'A edition may record presenter_role: the presenter''s role, shown under their
   name. Its value is text.'
@@ -14,4 +14,15 @@ links:
   type: derives_from
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:21Z'
+  fingerprint: sha256:dae4c0a949483159e9f0938d50ed4bda53470ee394c8bcd28aa10d4e0126f163
+  content:
+    type: rule
+    text: 'A edition may record presenter_role: the presenter''s role, shown under
+      their name. Its value is text.'
+    normative: true
+    derived: false
+    attrs: {}
 key: 024a7cee-c273-47d9-8ed4-edd1c9178abb
