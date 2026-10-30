@@ -1,0 +1,9 @@
+[project]
+name = "full-series (conformance example)"
+format_version = 4
+
+# The standard this example follows, by path from conformance/full-series/.
+[[sources]]
+namespace = "presentation"
+path = "../.."
+schema = true

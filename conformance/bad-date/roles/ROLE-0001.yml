@@ -1,0 +1,9 @@
+uid: ROLE-0001
+type: role
+status: draft
+title: Analyst
+text: Works out what a change means for a client.
+normative: true
+attrs:
+  tasks: Reads the month's sources
+  tools: A graph and a deck

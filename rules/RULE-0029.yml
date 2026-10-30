@@ -1,7 +1,7 @@
 uid: RULE-0029
 type: rule
 status: ratified
-title: A edition's month
+title: An edition's month
 text: 'A edition may record month: the month a briefing edition covers; a training
   edition has none. Its value is text. Part of what a signature on the item covers.'
 rationale: 'Declared in throughline.toml as [types.edition] attrs.month = {"type":

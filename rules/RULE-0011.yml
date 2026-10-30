@@ -1,7 +1,7 @@
 uid: RULE-0011
 type: rule
 status: ratified
-title: A series's audience
+title: A series' audience
 text: 'A series may record audience: who the series is for, in a sentence or two.
   Its value is text. Required. Part of what a signature on the item covers.'
 rationale: 'Declared in throughline.toml as [types.series] attrs.audience = {"type":

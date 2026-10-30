@@ -1,7 +1,7 @@
 uid: RULE-0020
 type: rule
 status: ratified
-title: A series's motif alt
+title: A series' motif alt
 text: 'A series may record motif_alt: what the motif says, for those who cannot see
   it. Its value is text. Part of what a signature on the item covers.'
 rationale: 'Declared in throughline.toml as [types.series] attrs.motif_alt = {"type":

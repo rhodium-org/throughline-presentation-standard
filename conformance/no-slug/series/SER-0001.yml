@@ -1,0 +1,20 @@
+uid: SER-0001
+type: series
+status: draft
+title: An example series
+text: A briefing series that uses every kind and attribute the standard declares.
+normative: true
+links:
+- target: TOP-0001
+  type: relates
+attrs:
+  audience: Practitioners who want a monthly view.
+  strapline: What changed this month
+  cover_title: Example
+  cover_mark: mark.png
+  cover_mark_alt: The word Example in a circle
+  cover_layout: series
+  kind: briefing
+  marking: EXAMPLE
+  motif: graph
+  motif_alt: A small graph of linked dots

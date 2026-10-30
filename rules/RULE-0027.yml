@@ -1,7 +1,7 @@
 uid: RULE-0027
 type: rule
 status: ratified
-title: A edition's presenter
+title: An edition's presenter
 text: 'A edition may record presenter: who presents the edition. Its value is text.'
 rationale: 'Declared in throughline.toml as [types.edition] attrs.presenter = {"type":
   "string"}.'

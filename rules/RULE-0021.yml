@@ -1,7 +1,7 @@
 uid: RULE-0021
 type: rule
 status: ratified
-title: A edition's basis
+title: An edition's basis
 text: 'A edition may record basis: whether the edition is written from the graph
   or carried over from before the graph. Its value is one of graph, legacy. Required.'
 rationale: 'Declared in throughline.toml as [types.edition] attrs.basis = {"type":

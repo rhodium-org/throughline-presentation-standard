@@ -1,7 +1,7 @@
 uid: RULE-0026
 type: rule
 status: ratified
-title: A edition's presented
+title: An edition's presented
 text: 'A edition may record presented: the day the edition is presented. Its value
   is a date.'
 rationale: 'Declared in throughline.toml as [types.edition] attrs.presented = {"type":

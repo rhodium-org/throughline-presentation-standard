@@ -1,7 +1,7 @@
 uid: RULE-0016
 type: rule
 status: ratified
-title: A series's cover layout
+title: A series' cover layout
 text: 'A series may record cover_layout: whether the cover''s band holds the series''
   name (series) or the deck''s own title (deck). Its value is one of series, deck.
   Part of what a signature on the item covers.'

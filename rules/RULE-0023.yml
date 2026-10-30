@@ -1,7 +1,7 @@
 uid: RULE-0023
 type: rule
 status: ratified
-title: A edition's news to
+title: An edition's news to
 text: 'A edition may record news_to: the last day of the news a briefing edition
   covers. Its value is a date.'
 rationale: 'Declared in throughline.toml as [types.edition] attrs.news_to = {"type":

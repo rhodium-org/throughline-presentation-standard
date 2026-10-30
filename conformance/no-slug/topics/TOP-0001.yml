@@ -1,0 +1,6 @@
+uid: TOP-0001
+type: topic
+status: draft
+title: Shared schemas
+text: Graphs that take their model from a standard.
+normative: true

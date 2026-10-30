@@ -1,0 +1,12 @@
+uid: SRC-0001
+type: source
+status: draft
+title: An example source
+text: The document the claim rests on.
+normative: true
+attrs:
+  url: https://example.org/notes
+  publisher: Example Org
+  checked: '2026-10-30'
+  published: '2026-10-01'
+  official_for: Example product

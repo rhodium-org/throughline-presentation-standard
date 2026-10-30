@@ -1,0 +1,14 @@
+uid: CLM-0001
+type: claim
+status: draft
+title: A graph can take its schema from a source
+text: A series may name a standard as its schema source.
+normative: true
+links:
+- target: SRC-0001
+  type: derives_from
+- target: SLD-0001
+  type: relates
+attrs:
+  role: product
+  product: Example product

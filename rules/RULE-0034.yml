@@ -1,7 +1,7 @@
 uid: RULE-0034
 type: rule
 status: ratified
-title: A edition's motif
+title: An edition's motif
 text: 'A edition may record motif: a picture drawn on this deck''s dividers, in place
   of the series'' motif. Its value is text.'
 rationale: 'Declared in throughline.toml as [types.edition] attrs.motif = {"type":

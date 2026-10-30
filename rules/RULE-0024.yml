@@ -1,7 +1,7 @@
 uid: RULE-0024
 type: rule
 status: ratified
-title: A edition's notes
+title: An edition's notes
 text: 'A edition may record notes: what the presenter says at the cover. Its value
   is text.'
 rationale: 'Declared in throughline.toml as [types.edition] attrs.notes = {"type":
