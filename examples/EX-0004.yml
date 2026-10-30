@@ -1,0 +1,15 @@
+uid: EX-0004
+type: example
+status: proposed
+title: A series with no slug
+text: conformance/no-slug holds a series item without its slug. tl check reports
+  the required attribute missing.
+rationale: 'Conformance is shown, not asserted: CI checks each example against the
+  standard.'
+normative: false
+links:
+- target: RULE-0010
+  type: verifies
+attrs:
+  origin: ai
+key: 3b0620c7-73da-4b01-b51d-2633e8f4d0a6

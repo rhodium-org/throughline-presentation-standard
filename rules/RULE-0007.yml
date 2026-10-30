@@ -1,0 +1,14 @@
+uid: RULE-0007
+type: rule
+status: proposed
+title: A topic is a kind of item a series holds
+text: A topic is a subject a series covers, recorded so a topic already covered is
+  not repeated unnoticed. A topic may stand on its own.
+rationale: Declared in throughline.toml as [types.topic].
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+key: e8acc0db-9495-4303-b0d0-3aa791b069f5

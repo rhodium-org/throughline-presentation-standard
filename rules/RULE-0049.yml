@@ -1,0 +1,17 @@
+uid: RULE-0049
+type: rule
+status: proposed
+title: A role's tasks
+text: 'A role may record tasks: what the role does on an engagement, one to a line.
+  Its value is text. Required. Part of what a signature on the item covers.'
+rationale: 'Declared in throughline.toml as [types.role] attrs.tasks = {"type": "text",
+  "required": true, "normative": true}.'
+normative: true
+links:
+- target: RULE-0009
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: eb465f8d-c765-4948-8131-ff69fa0a79cc

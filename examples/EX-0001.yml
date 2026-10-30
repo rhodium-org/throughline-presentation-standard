@@ -1,0 +1,122 @@
+uid: EX-0001
+type: example
+status: proposed
+title: A full conforming series
+text: conformance/full-series holds a series with an edition, threads, slides, sources,
+  claims, a topic, an interest and a role, using every kind and attribute the standard
+  declares. It passes tl check against the standard.
+rationale: 'Conformance is shown, not asserted: CI checks each example against the
+  standard.'
+normative: false
+links:
+- target: RULE-0001
+  type: verifies
+- target: RULE-0002
+  type: verifies
+- target: RULE-0003
+  type: verifies
+- target: RULE-0004
+  type: verifies
+- target: RULE-0005
+  type: verifies
+- target: RULE-0006
+  type: verifies
+- target: RULE-0007
+  type: verifies
+- target: RULE-0008
+  type: verifies
+- target: RULE-0009
+  type: verifies
+- target: RULE-0010
+  type: verifies
+- target: RULE-0011
+  type: verifies
+- target: RULE-0012
+  type: verifies
+- target: RULE-0013
+  type: verifies
+- target: RULE-0014
+  type: verifies
+- target: RULE-0015
+  type: verifies
+- target: RULE-0016
+  type: verifies
+- target: RULE-0017
+  type: verifies
+- target: RULE-0018
+  type: verifies
+- target: RULE-0019
+  type: verifies
+- target: RULE-0020
+  type: verifies
+- target: RULE-0021
+  type: verifies
+- target: RULE-0022
+  type: verifies
+- target: RULE-0023
+  type: verifies
+- target: RULE-0024
+  type: verifies
+- target: RULE-0025
+  type: verifies
+- target: RULE-0026
+  type: verifies
+- target: RULE-0027
+  type: verifies
+- target: RULE-0028
+  type: verifies
+- target: RULE-0029
+  type: verifies
+- target: RULE-0030
+  type: verifies
+- target: RULE-0031
+  type: verifies
+- target: RULE-0032
+  type: verifies
+- target: RULE-0033
+  type: verifies
+- target: RULE-0034
+  type: verifies
+- target: RULE-0035
+  type: verifies
+- target: RULE-0036
+  type: verifies
+- target: RULE-0037
+  type: verifies
+- target: RULE-0038
+  type: verifies
+- target: RULE-0039
+  type: verifies
+- target: RULE-0040
+  type: verifies
+- target: RULE-0041
+  type: verifies
+- target: RULE-0042
+  type: verifies
+- target: RULE-0043
+  type: verifies
+- target: RULE-0044
+  type: verifies
+- target: RULE-0045
+  type: verifies
+- target: RULE-0046
+  type: verifies
+- target: RULE-0047
+  type: verifies
+- target: RULE-0048
+  type: verifies
+- target: RULE-0049
+  type: verifies
+- target: RULE-0050
+  type: verifies
+- target: RULE-0051
+  type: verifies
+- target: RULE-0052
+  type: verifies
+- target: RULE-0053
+  type: verifies
+- target: RULE-0054
+  type: verifies
+attrs:
+  origin: ai
+key: 21e4dcbc-b5ff-4bc4-8c1c-2a6853349d1d

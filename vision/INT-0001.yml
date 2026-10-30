@@ -1,0 +1,16 @@
+uid: INT-0001
+type: intent
+status: proposed
+title: One model every presentation series is written in
+text: 'Every presentation series, whoever keeps it, is written in one model: the
+  same kinds of item, attributes, links and lifecycle, taken from this standard and
+  never copied. The model holds content; how a deck looks belongs to whoever renders
+  it.'
+rationale: Six series graphs each held a hand copy of one model and drifted to five
+  schemas across two formats (30 October 2026). A series can now take its schema
+  from a source (throughline SR-0275), so the model needs a home that is no service's
+  and no tenant's.
+normative: false
+attrs:
+  origin: ai
+key: e6f166e9-fb62-4f86-a308-a6e8425372a5

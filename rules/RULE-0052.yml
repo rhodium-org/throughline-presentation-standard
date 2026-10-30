@@ -1,0 +1,16 @@
+uid: RULE-0052
+type: rule
+status: proposed
+title: A series, a source, a topic and a role may stand on their own
+text: Series, source, topic and role items may exist without a grounding link; every
+  other kind of item a series holds must reach one through its links. A series that
+  nothing derives from is a finding.
+rationale: 'Declared in throughline.toml under [grounding]: root_types adds series,
+  source, topic and role, and delivery_roots adds series.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+key: 01d120b5-395b-4dc7-9024-7897a24e00cc

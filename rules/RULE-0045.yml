@@ -1,0 +1,19 @@
+uid: RULE-0045
+type: rule
+status: proposed
+title: A claim's role
+text: 'A claim may record role: whether the claim is news, background, guidance or
+  about a product. Its value is one of news, background, guidance, product. Required.
+  Part of what a signature on the item covers.'
+rationale: 'Declared in throughline.toml as [types.claim] attrs.role = {"type": "enum",
+  "values": ["news", "background", "guidance", "product"], "required": true, "normative":
+  true}.'
+normative: true
+links:
+- target: RULE-0006
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: 479a49c0-ce07-4a2e-a3e4-507e2141fe33

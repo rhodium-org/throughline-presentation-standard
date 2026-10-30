@@ -1,0 +1,17 @@
+uid: RULE-0039
+type: rule
+status: proposed
+title: A thread's narration
+text: 'A thread may record narration: a person''s wording of what is spoken over
+  the divider, in place of a narration made from the notes. Its value is text.'
+rationale: 'Declared in throughline.toml as [types.thread] attrs.narration = {"type":
+  "text"}.'
+normative: true
+links:
+- target: RULE-0003
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: 91bcd8cd-db8c-4423-b693-0ee6be7cc0e2

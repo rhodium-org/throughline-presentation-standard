@@ -1,0 +1,17 @@
+uid: RULE-0020
+type: rule
+status: proposed
+title: A series's motif alt
+text: 'A series may record motif_alt: what the motif says, for those who cannot see
+  it. Its value is text. Part of what a signature on the item covers.'
+rationale: 'Declared in throughline.toml as [types.series] attrs.motif_alt = {"type":
+  "string", "normative": true}.'
+normative: true
+links:
+- target: RULE-0001
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: 95bdef17-0537-4e64-8359-d8541168e3ce

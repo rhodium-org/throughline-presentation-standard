@@ -1,0 +1,17 @@
+uid: RULE-0047
+type: rule
+status: proposed
+title: A slide's order
+text: 'A slide may record order: the slide''s place in its thread. Its value is a
+  whole number. Required.'
+rationale: 'Declared in throughline.toml as [types.slide] attrs.order = {"type":
+  "int", "required": true}.'
+normative: true
+links:
+- target: RULE-0004
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: e32a7927-1327-429c-a83d-e98317febba5

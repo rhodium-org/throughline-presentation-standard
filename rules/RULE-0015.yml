@@ -1,0 +1,18 @@
+uid: RULE-0015
+type: rule
+status: proposed
+title: A series's cover mark alt
+text: 'A series may record cover_mark_alt: what the cover mark says, for those who
+  cannot see it. Its value is text. Required. Part of what a signature on the item
+  covers.'
+rationale: 'Declared in throughline.toml as [types.series] attrs.cover_mark_alt =
+  {"type": "string", "required": true, "normative": true}.'
+normative: true
+links:
+- target: RULE-0001
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: 0eebb63f-ddcc-4af7-ab24-00c6971302a4

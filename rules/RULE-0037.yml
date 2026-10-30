@@ -1,0 +1,17 @@
+uid: RULE-0037
+type: rule
+status: proposed
+title: A thread's changed since
+text: 'A thread may record changed_since: what changed since the edition before.
+  Its value is text.'
+rationale: 'Declared in throughline.toml as [types.thread] attrs.changed_since =
+  {"type": "text"}.'
+normative: true
+links:
+- target: RULE-0003
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: e84192ae-f26f-4ae8-b31f-7f6ac2507e77

@@ -1,0 +1,17 @@
+uid: RULE-0041
+type: rule
+status: proposed
+title: A source's publisher
+text: 'A source may record publisher: who published it. Its value is text. Required.
+  Part of what a signature on the item covers.'
+rationale: 'Declared in throughline.toml as [types.source] attrs.publisher = {"type":
+  "string", "required": true, "normative": true}.'
+normative: true
+links:
+- target: RULE-0005
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: 401d2e29-60b3-472a-b54e-c1059afcf464

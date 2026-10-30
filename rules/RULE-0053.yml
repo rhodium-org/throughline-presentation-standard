@@ -1,0 +1,16 @@
+uid: RULE-0053
+type: rule
+status: proposed
+title: The links a series graph uses
+text: A series graph links its items with derives_from, implements, mitigates and
+  verifies, which carry grounding, and with refines, satisfies, relates, assumes
+  and includes. A training deck includes a thread that belongs to another deck of
+  its series.
+rationale: Declared in throughline.toml under [links].
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+key: 2e74344c-ecb9-492a-9105-b65094b9bdbb

@@ -1,0 +1,16 @@
+uid: NG-0002
+type: non_goal
+status: proposed
+title: No rules of a service that builds decks
+text: How a service builds, schedules, narrates or approves a deck, the news sources
+  it reads, and the editorial limits it checks an edition against are not in the
+  standard.
+rationale: A service adds them in its own graph, which names this standard as its
+  schema source; a series inherits both through it.
+normative: false
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+key: dd07e07c-c723-4c62-aca1-eb90e2bab550

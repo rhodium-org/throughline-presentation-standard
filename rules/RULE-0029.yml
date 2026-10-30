@@ -1,0 +1,17 @@
+uid: RULE-0029
+type: rule
+status: proposed
+title: A edition's month
+text: 'A edition may record month: the month a briefing edition covers; a training
+  edition has none. Its value is text. Part of what a signature on the item covers.'
+rationale: 'Declared in throughline.toml as [types.edition] attrs.month = {"type":
+  "string", "normative": true}.'
+normative: true
+links:
+- target: RULE-0002
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: 6d9ced29-d031-4e27-851c-6e6e00143530

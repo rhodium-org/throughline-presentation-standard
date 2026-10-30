@@ -1,0 +1,18 @@
+uid: RULE-0018
+type: rule
+status: proposed
+title: A series's marking
+text: 'A series may record marking: the word shown at the top and bottom of every
+  slide after the cover; a series with none has no marking. Its value is text. Part
+  of what a signature on the item covers.'
+rationale: 'Declared in throughline.toml as [types.series] attrs.marking = {"type":
+  "string", "normative": true}.'
+normative: true
+links:
+- target: RULE-0001
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: 2fb4fbd7-8f63-4ae1-adf9-5b2355dee838

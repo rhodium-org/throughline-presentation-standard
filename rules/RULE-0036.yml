@@ -1,0 +1,17 @@
+uid: RULE-0036
+type: rule
+status: proposed
+title: A thread's order
+text: 'A thread may record order: the thread''s place in its edition. Its value is
+  a whole number.'
+rationale: 'Declared in throughline.toml as [types.thread] attrs.order = {"type":
+  "int"}.'
+normative: true
+links:
+- target: RULE-0003
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: 9ef65c6d-a129-466d-b947-d417bda7da09

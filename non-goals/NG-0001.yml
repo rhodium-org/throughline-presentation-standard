@@ -1,0 +1,15 @@
+uid: NG-0001
+type: non_goal
+status: proposed
+title: No brand or theme
+text: The standard holds no colours, palettes, fonts, slide styles, cover-mark shapes
+  or any other way a deck looks.
+rationale: These belong to whoever renders a deck, and are added by that layer's
+  own graph.
+normative: false
+links:
+- target: CON-0001
+  type: derives_from
+attrs:
+  origin: ai
+key: b738ae8f-f2db-405f-9fa1-cbb1de822a13

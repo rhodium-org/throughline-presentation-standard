@@ -1,0 +1,17 @@
+uid: RULE-0021
+type: rule
+status: proposed
+title: A edition's basis
+text: 'A edition may record basis: whether the edition is written from the graph
+  or carried over from before the graph. Its value is one of graph, legacy. Required.'
+rationale: 'Declared in throughline.toml as [types.edition] attrs.basis = {"type":
+  "enum", "values": ["graph", "legacy"], "required": true}.'
+normative: true
+links:
+- target: RULE-0002
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: 67a1a27f-948b-463a-a237-b36c13f494c4

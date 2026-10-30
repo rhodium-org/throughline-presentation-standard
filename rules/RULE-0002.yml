@@ -1,0 +1,14 @@
+uid: RULE-0002
+type: rule
+status: proposed
+title: An edition is a kind of item a series holds
+text: 'An edition is one deck of a series: a briefing for a month or a training deck
+  on a subject. It derives from its series.'
+rationale: Declared in throughline.toml as [types.edition].
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+key: 1d1480aa-fd44-4ebb-ac9a-0c58f11e746c

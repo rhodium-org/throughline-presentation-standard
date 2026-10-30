@@ -1,0 +1,16 @@
+uid: RULE-0027
+type: rule
+status: proposed
+title: A edition's presenter
+text: 'A edition may record presenter: who presents the edition. Its value is text.'
+rationale: 'Declared in throughline.toml as [types.edition] attrs.presenter = {"type":
+  "string"}.'
+normative: true
+links:
+- target: RULE-0002
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: 8b85b691-9557-49e2-a51a-5be4f976c9c1

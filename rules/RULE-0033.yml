@@ -1,0 +1,17 @@
+uid: RULE-0033
+type: rule
+status: proposed
+title: A edition's checked
+text: 'A edition may record checked: the day a training edition''s sources were last
+  checked. Its value is a date.'
+rationale: 'Declared in throughline.toml as [types.edition] attrs.checked = {"type":
+  "date"}.'
+normative: true
+links:
+- target: RULE-0002
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: 10fc0948-4790-48bc-a348-aab338236aa9

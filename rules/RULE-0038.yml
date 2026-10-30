@@ -1,0 +1,17 @@
+uid: RULE-0038
+type: rule
+status: proposed
+title: A thread's notes
+text: 'A thread may record notes: what the presenter says at the thread''s divider.
+  Its value is text.'
+rationale: 'Declared in throughline.toml as [types.thread] attrs.notes = {"type":
+  "text"}.'
+normative: true
+links:
+- target: RULE-0003
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: 8265106b-bd25-4ca6-a215-6e0cff3fd23d

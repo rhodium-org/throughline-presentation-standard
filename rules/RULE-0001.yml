@@ -1,0 +1,15 @@
+uid: RULE-0001
+type: rule
+status: proposed
+title: A series is a kind of item a series holds
+text: 'A series graph holds one series item: the series'' name and audience, its
+  cover, what kind of series it is and how its decks are marked. Interests and editions
+  derive from it.'
+rationale: Declared in throughline.toml as [types.series].
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+key: 70fe924f-2d1b-428b-8c4a-cb895e6801d3

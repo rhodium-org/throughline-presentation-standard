@@ -1,0 +1,13 @@
+uid: CON-0001
+type: constraint
+status: proposed
+title: The standard holds content and never brand
+text: Nothing in the standard names or depends on a colour, palette, font, slide
+  style or the drawing of a mark. Where a deck chooses something a brand renders,
+  the standard names a role the brand maps.
+rationale: A deck may be rebranded for different audiences without its content changing
+  (operator, 30 October 2026).
+normative: true
+attrs:
+  origin: ai
+key: c0aec018-62e3-4a66-98a6-72fde448f2b5

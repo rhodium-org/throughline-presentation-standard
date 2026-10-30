@@ -1,0 +1,18 @@
+uid: RULE-0016
+type: rule
+status: proposed
+title: A series's cover layout
+text: 'A series may record cover_layout: whether the cover''s band holds the series''
+  name (series) or the deck''s own title (deck). Its value is one of series, deck.
+  Part of what a signature on the item covers.'
+rationale: 'Declared in throughline.toml as [types.series] attrs.cover_layout = {"type":
+  "enum", "values": ["series", "deck"], "normative": true}.'
+normative: true
+links:
+- target: RULE-0001
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: 01e55c0f-1d55-4dea-a1a0-9a93e374b9a0

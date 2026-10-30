@@ -1,0 +1,14 @@
+uid: NG-0003
+type: non_goal
+status: proposed
+title: No tenant's content or settings
+text: No series, deck, source, claim or setting of any tenant is in the standard;
+  only the model they are written in.
+rationale: Tenants' content lives in each series' own repository.
+normative: false
+links:
+- target: CON-0002
+  type: derives_from
+attrs:
+  origin: ai
+key: 9b8179bf-5efc-4c07-a736-b35c1466c780

@@ -1,0 +1,17 @@
+uid: RULE-0050
+type: rule
+status: proposed
+title: A role's tools
+text: 'A role may record tools: the tools of the role''s trade, one to a line. Its
+  value is text. Required. Part of what a signature on the item covers.'
+rationale: 'Declared in throughline.toml as [types.role] attrs.tools = {"type": "text",
+  "required": true, "normative": true}.'
+normative: true
+links:
+- target: RULE-0009
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: d3f21de8-4188-4b30-bb5d-456a364db01e

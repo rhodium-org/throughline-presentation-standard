@@ -1,0 +1,17 @@
+uid: RULE-0025
+type: rule
+status: proposed
+title: A edition's narration
+text: 'A edition may record narration: a person''s wording of what is spoken over
+  the cover, in place of a narration made from the notes. Its value is text.'
+rationale: 'Declared in throughline.toml as [types.edition] attrs.narration = {"type":
+  "text"}.'
+normative: true
+links:
+- target: RULE-0002
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: 15046b79-0ffa-4fd3-9da4-16794133499e

@@ -1,0 +1,18 @@
+uid: RULE-0017
+type: rule
+status: proposed
+title: A series's kind
+text: 'A series may record kind: whether the series is a briefing series or a training
+  series, which decides the rules its editions meet. Its value is one of briefing,
+  training. Required. Part of what a signature on the item covers.'
+rationale: 'Declared in throughline.toml as [types.series] attrs.kind = {"type":
+  "enum", "values": ["briefing", "training"], "required": true, "normative": true}.'
+normative: true
+links:
+- target: RULE-0001
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: ade0a23a-f0a9-4343-92b2-4a978f81a130

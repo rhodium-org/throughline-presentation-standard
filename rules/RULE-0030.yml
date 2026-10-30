@@ -1,0 +1,17 @@
+uid: RULE-0030
+type: rule
+status: proposed
+title: A edition's subject
+text: 'A edition may record subject: what a training edition is about. Its value
+  is text. Part of what a signature on the item covers.'
+rationale: 'Declared in throughline.toml as [types.edition] attrs.subject = {"type":
+  "string", "normative": true}.'
+normative: true
+links:
+- target: RULE-0002
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: 71613676-13d7-41d4-ad37-056734b98977

@@ -1,0 +1,17 @@
+uid: RULE-0024
+type: rule
+status: proposed
+title: A edition's notes
+text: 'A edition may record notes: what the presenter says at the cover. Its value
+  is text.'
+rationale: 'Declared in throughline.toml as [types.edition] attrs.notes = {"type":
+  "text"}.'
+normative: true
+links:
+- target: RULE-0002
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: 9a14fd3b-b989-426f-b8da-863235a69b14

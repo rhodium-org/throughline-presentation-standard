@@ -1,0 +1,17 @@
+uid: RULE-0013
+type: rule
+status: proposed
+title: A series's cover title
+text: 'A series may record cover_title: the words beside the series mark on the cover.
+  Its value is text. Required. Part of what a signature on the item covers.'
+rationale: 'Declared in throughline.toml as [types.series] attrs.cover_title = {"type":
+  "string", "required": true, "normative": true}.'
+normative: true
+links:
+- target: RULE-0001
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: 4740e36a-6094-4de0-81a7-7afb26552d0d

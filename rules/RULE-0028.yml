@@ -1,0 +1,17 @@
+uid: RULE-0028
+type: rule
+status: proposed
+title: A edition's presenter role
+text: 'A edition may record presenter_role: the presenter''s role, shown under their
+  name. Its value is text.'
+rationale: 'Declared in throughline.toml as [types.edition] attrs.presenter_role
+  = {"type": "string"}.'
+normative: true
+links:
+- target: RULE-0002
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: 024a7cee-c273-47d9-8ed4-edd1c9178abb

@@ -1,0 +1,21 @@
+uid: RULE-0051
+type: rule
+status: proposed
+title: A thread's accent
+text: 'A thread may record accent: that the section stands apart, in the brand''s
+  first to fifth accent. Its value is one of 1, 2, 3, 4, 5. The brand that renders
+  the deck decides the colour each accent is.'
+rationale: 'Declared in throughline.toml as [types.thread] attrs.accent = {"type":
+  "enum", "values": ["1", "2", "3", "4", "5"]}. It replaces a thread''s named colours,
+  which were a brand''s.'
+normative: true
+links:
+- target: RULE-0003
+  type: derives_from
+- target: CON-0001
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+key: 9a72d976-e5a5-44dd-8865-751313590216
