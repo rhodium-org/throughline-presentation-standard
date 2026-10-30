@@ -1,0 +1,28 @@
+uid: RULE-0023
+type: rule
+status: ratified
+title: An edition's news to
+text: 'A edition may record news_to: the last day of the news a briefing edition
+  covers. Its value is a date.'
+rationale: 'Declared in throughline.toml as [types.edition] attrs.news_to = {"type":
+  "date"}.'
+normative: true
+links:
+- target: RULE-0002
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:20Z'
+  fingerprint: sha256:29dd2cbfefc29cb8bfaf79235846f1dc3d576877778cdfb2829ea090033a3d1e
+  content:
+    type: rule
+    text: 'A edition may record news_to: the last day of the news a briefing edition
+      covers. Its value is a date.'
+    normative: true
+    derived: false
+    attrs: {}
+key: 20512a04-e313-492c-8548-bce24e078308

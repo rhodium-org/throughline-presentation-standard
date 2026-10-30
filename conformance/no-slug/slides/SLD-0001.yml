@@ -1,0 +1,12 @@
+uid: SLD-0001
+type: slide
+status: draft
+title: What a schema source does
+text: One slide setting out the change.
+normative: true
+links:
+- target: THR-0001
+  type: derives_from
+attrs:
+  order: 1
+  layout: cards

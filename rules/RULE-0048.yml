@@ -1,0 +1,30 @@
+uid: RULE-0048
+type: rule
+status: ratified
+title: A slide's layout
+text: 'A slide may record layout: how the slide sets out its content. Its value is
+  one of cards, stats, rows, definition, compare, takeaway, screenshot, video. Required.'
+rationale: 'Declared in throughline.toml as [types.slide] attrs.layout = {"type":
+  "enum", "values": ["cards", "stats", "rows", "definition", "compare", "takeaway",
+  "screenshot", "video"], "required": true}.'
+normative: true
+links:
+- target: RULE-0004
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:25Z'
+  fingerprint: sha256:c9dffa836520d9a9a79d9c666748739342828153404167ca7b803c2c40b89ff8
+  content:
+    type: rule
+    text: 'A slide may record layout: how the slide sets out its content. Its value
+      is one of cards, stats, rows, definition, compare, takeaway, screenshot, video.
+      Required.'
+    normative: true
+    derived: false
+    attrs: {}
+key: 416960c4-e98d-4b0b-8795-c57276c833f4

@@ -1,0 +1,25 @@
+uid: CON-0003
+type: constraint
+status: ratified
+title: A change that would fail a conforming series is a new major edition
+text: The standard is released as tagged editions. An edition that removes or narrows
+  anything a conforming series may rely on is a new major, and its notes say what
+  a series must change.
+rationale: Once series inherit the standard, every one that moves its pin takes a
+  change at once.
+normative: true
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:22:22Z'
+  fingerprint: sha256:56651d5e4d98da216f12bf3767bc2b93086060934675c067ce4dc83d9608bb0c
+  content:
+    type: constraint
+    text: The standard is released as tagged editions. An edition that removes or
+      narrows anything a conforming series may rely on is a new major, and its notes
+      say what a series must change.
+    normative: true
+    derived: false
+    attrs: {}
+key: e003b32e-0f91-4cdd-a705-ec1ebaaf89a7

@@ -1,0 +1,13 @@
+[project]
+name = "wide-layout (conformance example)"
+format_version = 4
+
+# The standard this example follows, by path from conformance/wide-layout/.
+[[sources]]
+namespace = "presentation"
+path = "../.."
+schema = true
+
+# Deliberately broken: redeclares an inherited attribute with an extra value.
+[types.slide]
+attrs.layout = { type = "enum", values = ["cards", "stats", "rows", "definition", "compare", "takeaway", "screenshot", "video", "carousel"], required = true }

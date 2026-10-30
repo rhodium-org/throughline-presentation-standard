@@ -1,0 +1,30 @@
+uid: RULE-0017
+type: rule
+status: ratified
+title: A series' kind
+text: 'A series may record kind: whether the series is a briefing series or a training
+  series, which decides the rules its editions meet. Its value is one of briefing,
+  training. Required. Part of what a signature on the item covers.'
+rationale: 'Declared in throughline.toml as [types.series] attrs.kind = {"type":
+  "enum", "values": ["briefing", "training"], "required": true, "normative": true}.'
+normative: true
+links:
+- target: RULE-0001
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:18Z'
+  fingerprint: sha256:9a4ae9f8685fdb2e39f8d3664acee989dfda8afd921685b8aee0e0e895c83747
+  content:
+    type: rule
+    text: 'A series may record kind: whether the series is a briefing series or a
+      training series, which decides the rules its editions meet. Its value is one
+      of briefing, training. Required. Part of what a signature on the item covers.'
+    normative: true
+    derived: false
+    attrs: {}
+key: ade0a23a-f0a9-4343-92b2-4a978f81a130

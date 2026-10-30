@@ -1,0 +1,15 @@
+uid: THR-0001
+type: thread
+status: draft
+title: Schemas taken from a source
+text: Graphs stopped copying their model.
+normative: true
+links:
+- target: ED-0001
+  type: derives_from
+attrs:
+  order: 1
+  changed_since: New this month.
+  notes: This is the first thread.
+  narration: First, schemas.
+  accent: '2'

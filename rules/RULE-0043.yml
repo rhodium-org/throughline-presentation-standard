@@ -1,0 +1,28 @@
+uid: RULE-0043
+type: rule
+status: ratified
+title: A source's published
+text: 'A source may record published: the day it was published; documentation may
+  have none. Its value is a date. Part of what a signature on the item covers.'
+rationale: 'Declared in throughline.toml as [types.source] attrs.published = {"type":
+  "date", "normative": true}.'
+normative: true
+links:
+- target: RULE-0005
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:24Z'
+  fingerprint: sha256:7a9fd28092cc424e4bd57df3866aa67d5e8737af26cfcc5cdaf74707d71b7685
+  content:
+    type: rule
+    text: 'A source may record published: the day it was published; documentation
+      may have none. Its value is a date. Part of what a signature on the item covers.'
+    normative: true
+    derived: false
+    attrs: {}
+key: cc8474d7-340e-4964-9532-95590603d51f

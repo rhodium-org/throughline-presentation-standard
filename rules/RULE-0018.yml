@@ -1,0 +1,30 @@
+uid: RULE-0018
+type: rule
+status: ratified
+title: A series' marking
+text: 'A series may record marking: the word shown at the top and bottom of every
+  slide after the cover; a series with none has no marking. Its value is text. Part
+  of what a signature on the item covers.'
+rationale: 'Declared in throughline.toml as [types.series] attrs.marking = {"type":
+  "string", "normative": true}.'
+normative: true
+links:
+- target: RULE-0001
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:18Z'
+  fingerprint: sha256:9bc576665f90c8f34977d774e6bc1c4f524487f387dd3f0ba29d2d686d6f48ab
+  content:
+    type: rule
+    text: 'A series may record marking: the word shown at the top and bottom of every
+      slide after the cover; a series with none has no marking. Its value is text.
+      Part of what a signature on the item covers.'
+    normative: true
+    derived: false
+    attrs: {}
+key: 2fb4fbd7-8f63-4ae1-adf9-5b2355dee838

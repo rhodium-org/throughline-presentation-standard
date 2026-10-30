@@ -1,0 +1,25 @@
+uid: RULE-0003
+type: rule
+status: ratified
+title: A thread is a kind of item a series holds
+text: A thread is one section of an edition, in order, with what changed since the
+  last edition and what the presenter says at its divider.
+rationale: Declared in throughline.toml as [types.thread].
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:15Z'
+  fingerprint: sha256:2e7c14bd9a5096c41defd9f675bb014d9d13092748bada54598f7d796323113b
+  content:
+    type: rule
+    text: A thread is one section of an edition, in order, with what changed since
+      the last edition and what the presenter says at its divider.
+    normative: true
+    derived: false
+    attrs: {}
+key: 282d2531-1273-43eb-9cc8-841b71d30d5c

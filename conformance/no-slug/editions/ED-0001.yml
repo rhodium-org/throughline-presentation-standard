@@ -1,0 +1,25 @@
+uid: ED-0001
+type: edition
+status: draft
+title: October 2026
+text: The October edition.
+normative: true
+links:
+- target: SER-0001
+  type: derives_from
+attrs:
+  basis: graph
+  news_from: '2026-10-01'
+  news_to: '2026-10-31'
+  notes: Welcome to October.
+  narration: Welcome to the October briefing.
+  presented: '2026-11-02'
+  presenter: A presenter
+  presenter_role: Analyst
+  month: 2026-10
+  subject: The month's changes
+  subject_kind: common
+  revision: 1
+  checked: '2026-10-30'
+  motif: graph
+  motif_alt: A small graph of linked dots

@@ -1,0 +1,9 @@
+uid: AUD-0001
+type: interest
+status: draft
+title: What changed and why it matters
+text: The audience wants the month's changes and what they mean for its work.
+normative: true
+links:
+- target: SER-0001
+  type: derives_from

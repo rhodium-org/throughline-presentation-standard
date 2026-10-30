@@ -1,0 +1,28 @@
+uid: RULE-0040
+type: rule
+status: ratified
+title: A source's url
+text: 'A source may record url: where the source can be read. Its value is text.
+  Required. Part of what a signature on the item covers.'
+rationale: 'Declared in throughline.toml as [types.source] attrs.url = {"type": "string",
+  "required": true, "normative": true}.'
+normative: true
+links:
+- target: RULE-0005
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:23Z'
+  fingerprint: sha256:5a1bc59e453a2bd5898f53c0a28ee41e2ff97f8ddd29e623d856fea840e51068
+  content:
+    type: rule
+    text: 'A source may record url: where the source can be read. Its value is text.
+      Required. Part of what a signature on the item covers.'
+    normative: true
+    derived: false
+    attrs: {}
+key: 885603c5-b71b-44b4-8872-1187d0fcfeae

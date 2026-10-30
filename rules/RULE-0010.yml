@@ -1,0 +1,28 @@
+uid: RULE-0010
+type: rule
+status: ratified
+title: A series' slug
+text: 'A series may record slug: the short name the series'' files are named by.
+  Its value is text. Required. Part of what a signature on the item covers.'
+rationale: 'Declared in throughline.toml as [types.series] attrs.slug = {"type":
+  "string", "required": true, "normative": true}.'
+normative: true
+links:
+- target: RULE-0001
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:17Z'
+  fingerprint: sha256:ce270af40dadb9519e62b6c6085c109c7d08f3f8aa07243de85e1e408e9847e8
+  content:
+    type: rule
+    text: 'A series may record slug: the short name the series'' files are named
+      by. Its value is text. Required. Part of what a signature on the item covers.'
+    normative: true
+    derived: false
+    attrs: {}
+key: 4e435555-ac0f-430d-8a78-dec96c08cda7

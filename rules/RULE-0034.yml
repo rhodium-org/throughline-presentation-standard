@@ -1,0 +1,28 @@
+uid: RULE-0034
+type: rule
+status: ratified
+title: An edition's motif
+text: 'A edition may record motif: a picture drawn on this deck''s dividers, in place
+  of the series'' motif. Its value is text.'
+rationale: 'Declared in throughline.toml as [types.edition] attrs.motif = {"type":
+  "string"}.'
+normative: true
+links:
+- target: RULE-0002
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:22Z'
+  fingerprint: sha256:0515d298b3f992b45ae6845c9cf44c5f22df0d25bbc8d3623e38d753e824a716
+  content:
+    type: rule
+    text: 'A edition may record motif: a picture drawn on this deck''s dividers,
+      in place of the series'' motif. Its value is text.'
+    normative: true
+    derived: false
+    attrs: {}
+key: 6f95175c-afae-4bcb-855b-fb8eac52c15e

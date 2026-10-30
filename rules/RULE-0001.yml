@@ -1,0 +1,27 @@
+uid: RULE-0001
+type: rule
+status: ratified
+title: A series is a kind of item a series holds
+text: 'A series graph holds one series item: the series'' name and audience, its
+  cover, what kind of series it is and how its decks are marked. Interests and editions
+  derive from it.'
+rationale: Declared in throughline.toml as [types.series].
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:09Z'
+  fingerprint: sha256:089c6bc707f42b8e480aa0c5a92f42aea72c99b14012075521938b26ccd36064
+  content:
+    type: rule
+    text: 'A series graph holds one series item: the series'' name and audience,
+      its cover, what kind of series it is and how its decks are marked. Interests
+      and editions derive from it.'
+    normative: true
+    derived: false
+    attrs: {}
+key: 70fe924f-2d1b-428b-8c4a-cb895e6801d3

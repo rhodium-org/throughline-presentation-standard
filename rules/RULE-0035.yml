@@ -1,0 +1,29 @@
+uid: RULE-0035
+type: rule
+status: ratified
+title: An edition's motif alt
+text: 'A edition may record motif_alt: what the deck''s motif says, for those who
+  cannot see it. Its value is text. Part of what a signature on the item covers.'
+rationale: 'Declared in throughline.toml as [types.edition] attrs.motif_alt = {"type":
+  "string", "normative": true}.'
+normative: true
+links:
+- target: RULE-0002
+  type: derives_from
+- target: CON-0004
+  type: derives_from
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:22Z'
+  fingerprint: sha256:0e0d390facf2a81e58373afb67bd09c507b41d71118c003c80a6e203f8939f5e
+  content:
+    type: rule
+    text: 'A edition may record motif_alt: what the deck''s motif says, for those
+      who cannot see it. Its value is text. Part of what a signature on the item
+      covers.'
+    normative: true
+    derived: false
+    attrs: {}
+key: f5bacb8a-f7fc-4040-96c3-4743c08310c5

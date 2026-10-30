@@ -6,9 +6,17 @@ format_version = 4
 # through a grounding link (the scope-avalanche grounding layer). A non_goal is
 # a root but NOT a delivery root: it is negative space, so nothing derives from
 # it and it is never flagged 'unserved'.
+# RULE-0052: the kinds of item that may stand on their own, and the links that
+# ground the rest
 [grounding]
-root_types = ["intent", "business_need", "risk", "constraint", "assumption", "non_goal"]
-delivery_roots = ["intent", "business_need", "risk", "constraint"]
+# RULE-0052
+# RULE-0052
+# RULE-0052
+# RULE-0052
+root_types = ["intent", "business_need", "risk", "constraint", "assumption", "non_goal",
+              "series", "source", "topic", "role"]
+# RULE-0052
+delivery_roots = ["intent", "business_need", "risk", "constraint", "series"]
 ground_link_types = ["derives_from", "mitigates", "implements", "verifies"]
 ai_origins = ["ai", "hybrid"]
 
@@ -28,9 +36,11 @@ attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
 normative = false
 attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
 
+# RULE-0053: the links a series graph uses
 [links]
+# RULE-0053
 types = ["refines", "verifies", "satisfies", "implements", "relates",
-         "derives_from", "mitigates", "assumes"]
+         "derives_from", "mitigates", "assumes", "includes"]
 
 # Type-level link constraints (SR-0084): the item types each link may join.
 # Domain-specific, so left off by default — run `tl shape` to see how your
@@ -39,6 +49,7 @@ types = ["refines", "verifies", "satisfies", "implements", "relates",
 # mitigates = { from = ["requirement"], to = ["risk"] }
 # verifies  = { from = ["test"], to = ["requirement"] }
 
+# RULE-0054: the statuses an item moves through
 [status]
 # draft = actively moving toward approval; deferred = acknowledged and grounded
 # but deliberately parked (a backlog wish-list item, not on the active front).
@@ -51,6 +62,7 @@ values = ["proposed", "draft", "deferred", "approved", "ratified", "implemented"
 # 'tombstone' as dead, `tl delete` writes 'tombstone'. Operations resolve status
 # through these roles, never a literal, so a project renames a status freely by
 # editing here. Delete this table only if you drive every status move by hand.
+# RULE-0054: which status plays each role
 [status.roles]
 initial = "draft"
 proposed = "proposed"
@@ -68,6 +80,7 @@ tombstone = "deleted"
 # Every live status also keeps a route to 'suspect' (SR-0175), so that an item
 # whose grounding is withdrawn can be flagged wherever it currently sits — the
 # statuses below 'approved' hold the items whose grounding is least settled.
+# RULE-0054: the moves between statuses
 [transitions]
 proposed    = ["draft", "approved", "ratified", "deferred", "suspect", "rejected", "deleted"]
 draft       = ["proposed", "approved", "deferred", "suspect", "rejected", "deleted"]
@@ -106,3 +119,141 @@ attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
 filter = "type == 'rule' and status != 'deleted'"
 needs = "incoming:verifies"
 severity = "warning"
+
+# RULE-0001
+[types.series]
+# RULE-0054: an item records where it came from, so an ai-origin item waits as
+# proposed
+attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
+# RULE-0010
+attrs.slug = { type = "string", required = true, normative = true }
+# RULE-0011
+attrs.audience = { type = "text", required = true, normative = true }
+# RULE-0012
+attrs.strapline = { type = "string", required = true, normative = true }
+# RULE-0013
+attrs.cover_title = { type = "string", required = true, normative = true }
+# RULE-0014
+attrs.cover_mark = { type = "string", required = true }
+# RULE-0015
+attrs.cover_mark_alt = { type = "string", required = true, normative = true }
+# RULE-0016
+attrs.cover_layout = { type = "enum", values = ["series", "deck"], normative = true }
+# RULE-0017
+attrs.kind = { type = "enum", values = ["briefing", "training"], required = true, normative = true }
+# RULE-0018
+attrs.marking = { type = "string", normative = true }
+# RULE-0019
+attrs.motif = { type = "string" }
+# RULE-0020
+attrs.motif_alt = { type = "string", normative = true }
+
+# RULE-0002
+[types.edition]
+# RULE-0054: an item records where it came from, so an ai-origin item waits as
+# proposed
+attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
+# RULE-0021
+attrs.basis = { type = "enum", values = ["graph", "legacy"], required = true }
+# RULE-0022
+attrs.news_from = { type = "date" }
+# RULE-0023
+attrs.news_to = { type = "date" }
+# RULE-0024
+attrs.notes = { type = "text" }
+# RULE-0025
+attrs.narration = { type = "text" }
+# RULE-0026
+attrs.presented = { type = "date" }
+# RULE-0027
+attrs.presenter = { type = "string" }
+# RULE-0028
+attrs.presenter_role = { type = "string" }
+# RULE-0029
+attrs.month = { type = "string", normative = true }
+# RULE-0030
+attrs.subject = { type = "string", normative = true }
+# RULE-0031
+attrs.subject_kind = { type = "enum", values = ["role", "product", "common"], normative = true }
+# RULE-0032
+attrs.revision = { type = "int" }
+# RULE-0033
+attrs.checked = { type = "date" }
+# RULE-0034
+attrs.motif = { type = "string" }
+# RULE-0035
+attrs.motif_alt = { type = "string", normative = true }
+
+# RULE-0003
+[types.thread]
+# RULE-0054: an item records where it came from, so an ai-origin item waits as
+# proposed
+attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
+# RULE-0036
+attrs.order = { type = "int" }
+# RULE-0037
+attrs.changed_since = { type = "text" }
+# RULE-0038
+attrs.notes = { type = "text" }
+# RULE-0039
+attrs.narration = { type = "text" }
+# RULE-0051
+attrs.accent = { type = "enum", values = ["1", "2", "3", "4", "5"] }
+
+# RULE-0004
+[types.slide]
+# RULE-0054: an item records where it came from, so an ai-origin item waits as
+# proposed
+attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
+# RULE-0047
+attrs.order = { type = "int", required = true }
+# RULE-0048
+attrs.layout = { type = "enum", values = ["cards", "stats", "rows", "definition", "compare", "takeaway", "screenshot", "video"], required = true }
+
+# RULE-0005
+[types.source]
+# RULE-0054: an item records where it came from, so an ai-origin item waits as
+# proposed
+attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
+# RULE-0040
+attrs.url = { type = "string", required = true, normative = true }
+# RULE-0041
+attrs.publisher = { type = "string", required = true, normative = true }
+# RULE-0042
+attrs.checked = { type = "date", required = true }
+# RULE-0043
+attrs.published = { type = "date", normative = true }
+# RULE-0044
+attrs.official_for = { type = "string", normative = true }
+
+# RULE-0006
+[types.claim]
+# RULE-0054: an item records where it came from, so an ai-origin item waits as
+# proposed
+attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
+# RULE-0045
+attrs.role = { type = "enum", values = ["news", "background", "guidance", "product"], required = true, normative = true }
+# RULE-0046
+attrs.product = { type = "string", normative = true }
+
+# RULE-0007
+[types.topic]
+# RULE-0054: an item records where it came from, so an ai-origin item waits as
+# proposed
+attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
+
+# RULE-0008
+[types.interest]
+# RULE-0054: an item records where it came from, so an ai-origin item waits as
+# proposed
+attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
+
+# RULE-0009
+[types.role]
+# RULE-0054: an item records where it came from, so an ai-origin item waits as
+# proposed
+attrs.origin = { type = "enum", values = ["human", "ai", "hybrid"] }
+# RULE-0049
+attrs.tasks = { type = "text", required = true, normative = true }
+# RULE-0050
+attrs.tools = { type = "text", required = true, normative = true }

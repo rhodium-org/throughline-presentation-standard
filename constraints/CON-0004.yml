@@ -1,0 +1,24 @@
+uid: CON-0004
+type: constraint
+status: ratified
+title: Followers run throughline 4.4.0 or later
+text: A series that follows the standard is checked with throughline 4.4.0 or later,
+  which checks every declared attribute's kind and passes coverage rules on to followers.
+rationale: Earlier releases check only required attributes and enum values, so the
+  kinds the rules declare would go unchecked (throughline SR-0282).
+normative: true
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:22:25Z'
+  fingerprint: sha256:cea4fae92c2aaa66e40d0db2814b6b0894dd7365249ece8fe7bd0a3683504269
+  content:
+    type: constraint
+    text: A series that follows the standard is checked with throughline 4.4.0 or
+      later, which checks every declared attribute's kind and passes coverage rules
+      on to followers.
+    normative: true
+    derived: false
+    attrs: {}
+key: 07dd704f-c7b9-43c3-aedd-556af547208d

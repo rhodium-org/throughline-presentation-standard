@@ -1,0 +1,26 @@
+uid: EX-0003
+type: example
+status: ratified
+title: A series that widens the slide layouts
+text: conformance/wide-layout redeclares a slide's layout with a value the standard
+  does not hold. tl check refuses the configuration, naming both values.
+rationale: 'Conformance is shown, not asserted: CI checks each example against the
+  standard.'
+normative: false
+links:
+- target: RULE-0048
+  type: verifies
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-10-30T21:24:28Z'
+  fingerprint: sha256:49e4a011bea0adca113951beda07c2cd8f751d0d1787be8891229603f742d71b
+  content:
+    type: example
+    text: conformance/wide-layout redeclares a slide's layout with a value the standard
+      does not hold. tl check refuses the configuration, naming both values.
+    normative: false
+    derived: false
+    attrs: {}
+key: 8f4f94e0-cae4-4b9c-8fbc-eb091e74a1c3
