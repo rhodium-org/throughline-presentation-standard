@@ -1,0 +1,18 @@
+uid: ATTR-0007
+type: attribute
+status: proposed
+title: A series's cover layout
+text: 'A series''s cover_layout: optional; part of what a signature covers.'
+rationale: 'A series may record cover_layout: whether the cover''s band holds the
+  series'' name (series) or the deck''s own title (deck). Its value is one of series,
+  deck. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: ENUM-0001
+  type: has_type
+attrs:
+  name: cover_layout
+  normative: true
+  origin: ai

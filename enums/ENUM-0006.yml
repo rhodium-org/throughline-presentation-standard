@@ -1,0 +1,12 @@
+uid: ENUM-0006
+type: enum
+status: proposed
+title: Slide layout
+text: 'One of: cards, stats, rows, definition, compare, takeaway, screenshot, video.'
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+attrs:
+  values: cards, stats, rows, definition, compare, takeaway, screenshot, video
+  origin: ai

@@ -7,8 +7,6 @@ normative: true
 links:
 - target: SRC-0001
   type: derives_from
-- target: SLD-0001
-  type: relates
 attrs:
   role: product
   product: Example product

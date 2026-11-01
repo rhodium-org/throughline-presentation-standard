@@ -1,0 +1,17 @@
+uid: REG-0007
+type: register
+status: proposed
+title: A series graph's threads live in THR
+text: A series graph holds its thread items in THR, folder threads/.
+rationale: A thread is one section of an edition, in order, with what changed since
+  the last edition and what the presenter says at its divider.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: THR
+  dir: threads
+  holds: thread
+  label: Threads
+  origin: ai

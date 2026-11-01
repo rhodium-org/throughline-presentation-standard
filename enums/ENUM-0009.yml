@@ -1,0 +1,12 @@
+uid: ENUM-0009
+type: enum
+status: proposed
+title: Thread tone
+text: 'One of: teal, red, green, purple, magenta.'
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+attrs:
+  values: teal, red, green, purple, magenta
+  origin: ai

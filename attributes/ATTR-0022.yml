@@ -1,0 +1,16 @@
+uid: ATTR-0022
+type: attribute
+status: proposed
+title: An edition's notes
+text: 'An edition''s notes: optional; not part of what a signature covers.'
+rationale: 'A edition may record notes: what the presenter says at the cover. Its
+  value is text.'
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: notes
+  origin: ai

@@ -1,0 +1,18 @@
+uid: ATTR-0009
+type: attribute
+status: proposed
+title: A series's marking
+text: 'A series''s marking: optional; part of what a signature covers.'
+rationale: 'A series may record marking: the word shown at the top and bottom of
+  every slide after the cover; a series with none has no marking. Its value is text.
+  Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: marking
+  normative: true
+  origin: ai

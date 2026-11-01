@@ -1,0 +1,21 @@
+uid: LINK-0001
+type: link
+status: proposed
+title: An edition derives from its series, an intent or the role it is written for
+text: An edition derives from its series, an intent or the role it is written for.
+rationale: 'An edition is one deck of a series: a briefing for a month or a training
+  deck on a subject. It derives from its series.'
+normative: true
+links:
+- target: REG-0006
+  type: from
+- target: REG-0005
+  type: to
+- target: meta:REG-0001
+  type: to
+- target: REG-0013
+  type: to
+- target: meta:LT-0001
+  type: via
+attrs:
+  origin: ai

@@ -4,9 +4,6 @@ status: draft
 title: An example series
 text: A briefing series that uses every kind and attribute the standard declares.
 normative: true
-links:
-- target: TOP-0001
-  type: relates
 attrs:
   slug: example
   audience: Practitioners who want a monthly view.
@@ -19,3 +16,4 @@ attrs:
   marking: EXAMPLE
   motif: graph
   motif_alt: A small graph of linked dots
+  approval: person

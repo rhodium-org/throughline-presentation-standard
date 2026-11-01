@@ -1,0 +1,12 @@
+uid: ENUM-0003
+type: enum
+status: proposed
+title: Edition basis
+text: 'One of: graph, legacy.'
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+attrs:
+  values: graph, legacy
+  origin: ai

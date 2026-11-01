@@ -1,0 +1,11 @@
+uid: TYPE-0004
+type: type
+status: proposed
+title: Whole number
+text: A whole number.
+normative: true
+links:
+- target: meta:BASE-0003
+  type: has_type
+attrs:
+  origin: ai

@@ -1,0 +1,17 @@
+uid: REG-0008
+type: register
+status: proposed
+title: A series graph's slides live in SLD
+text: A series graph holds its slide items in SLD, folder slides/.
+rationale: A slide is one slide of a thread, with its place in the order and its
+  layout.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: SLD
+  dir: slides
+  holds: slide
+  label: Slides
+  origin: ai

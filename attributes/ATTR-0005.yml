@@ -1,0 +1,17 @@
+uid: ATTR-0005
+type: attribute
+status: proposed
+title: A series's cover mark
+text: 'A series''s cover_mark: required; not part of what a signature covers.'
+rationale: 'A series may record cover_mark: the picture that completes the series
+  name on the cover. Its value is text. Required.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: cover_mark
+  required: true
+  origin: ai

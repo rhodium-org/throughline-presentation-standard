@@ -1,0 +1,18 @@
+uid: ATTR-0052
+type: attribute
+status: proposed
+title: A role's tools
+text: 'A role''s tools: required; part of what a signature covers.'
+rationale: 'A role may record tools: the tools of the role''s trade, one to a line.
+  Its value is text. Required. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0013
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: tools
+  required: true
+  normative: true
+  origin: ai

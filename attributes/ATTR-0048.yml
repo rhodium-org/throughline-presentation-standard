@@ -1,0 +1,17 @@
+uid: ATTR-0048
+type: attribute
+status: proposed
+title: A source's found via
+text: 'A source''s found_via: required; not part of what a signature covers.'
+rationale: 'How the source was found: by the news brief or by a web search, so a
+  pipeline run''s sources can be told from a person''s.'
+normative: true
+links:
+- target: REG-0009
+  type: belongs_to
+- target: ENUM-0010
+  type: has_type
+attrs:
+  name: found_via
+  required: true
+  origin: ai

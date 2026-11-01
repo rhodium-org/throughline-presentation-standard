@@ -1,0 +1,17 @@
+uid: ATTR-0011
+type: attribute
+status: proposed
+title: A series's motif alt
+text: 'A series''s motif_alt: optional; part of what a signature covers.'
+rationale: 'A series may record motif_alt: what the motif says, for those who cannot
+  see it. Its value is text. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: motif_alt
+  normative: true
+  origin: ai

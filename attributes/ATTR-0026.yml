@@ -1,0 +1,16 @@
+uid: ATTR-0026
+type: attribute
+status: proposed
+title: An edition's presenter role
+text: 'An edition''s presenter_role: optional; not part of what a signature covers.'
+rationale: 'A edition may record presenter_role: the presenter''s role, shown under
+  their name. Its value is text.'
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: presenter_role
+  origin: ai

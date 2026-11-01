@@ -1,0 +1,17 @@
+uid: ATTR-0034
+type: attribute
+status: proposed
+title: An edition's approval
+text: 'An edition''s approval: optional; part of what a signature covers.'
+rationale: Whether this deck waits for a person's sign-off, where it differs from
+  its series' approval.
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: ENUM-0008
+  type: has_type
+attrs:
+  name: approval
+  normative: true
+  origin: ai

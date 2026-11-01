@@ -1,0 +1,12 @@
+uid: ENUM-0007
+type: enum
+status: proposed
+title: Claim role
+text: 'One of: news, background, guidance, product.'
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+attrs:
+  values: news, background, guidance, product
+  origin: ai

@@ -1,0 +1,19 @@
+uid: LINK-0004
+type: link
+status: proposed
+title: A thread derives from its edition and the interests it serves
+text: A thread derives from its edition and the interests it serves.
+rationale: A thread is one section of an edition, in order, with what changed since
+  the last edition and what the presenter says at its divider.
+normative: true
+links:
+- target: REG-0007
+  type: from
+- target: REG-0006
+  type: to
+- target: REG-0012
+  type: to
+- target: meta:LT-0001
+  type: via
+attrs:
+  origin: ai

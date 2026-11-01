@@ -1,0 +1,18 @@
+uid: ATTR-0002
+type: attribute
+status: proposed
+title: A series's audience
+text: 'A series''s audience: required; part of what a signature covers.'
+rationale: 'A series may record audience: who the series is for, in a sentence or
+  two. Its value is text. Required. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: audience
+  required: true
+  normative: true
+  origin: ai

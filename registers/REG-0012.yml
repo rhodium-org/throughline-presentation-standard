@@ -1,0 +1,17 @@
+uid: REG-0012
+type: register
+status: proposed
+title: A series graph's interests live in AUD
+text: A series graph holds its interest items in AUD, folder interests/.
+rationale: An interest is one thing a series' audience wants from it. It derives
+  from its series.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: AUD
+  dir: interests
+  holds: interest
+  label: Interests
+  origin: ai

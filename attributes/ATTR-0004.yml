@@ -1,0 +1,18 @@
+uid: ATTR-0004
+type: attribute
+status: proposed
+title: A series's cover title
+text: 'A series''s cover_title: required; part of what a signature covers.'
+rationale: 'A series may record cover_title: the words beside the series mark on
+  the cover. Its value is text. Required. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: cover_title
+  required: true
+  normative: true
+  origin: ai

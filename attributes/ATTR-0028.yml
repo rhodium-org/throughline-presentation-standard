@@ -1,0 +1,17 @@
+uid: ATTR-0028
+type: attribute
+status: proposed
+title: An edition's subject
+text: 'An edition''s subject: optional; part of what a signature covers.'
+rationale: 'A edition may record subject: what a training edition is about. Its value
+  is text. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: subject
+  normative: true
+  origin: ai

@@ -1,0 +1,19 @@
+uid: ATTR-0006
+type: attribute
+status: proposed
+title: A series's cover mark alt
+text: 'A series''s cover_mark_alt: required; part of what a signature covers.'
+rationale: 'A series may record cover_mark_alt: what the cover mark says, for those
+  who cannot see it. Its value is text. Required. Part of what a signature on the
+  item covers.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: cover_mark_alt
+  required: true
+  normative: true
+  origin: ai

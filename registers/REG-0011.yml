@@ -1,0 +1,17 @@
+uid: REG-0011
+type: register
+status: proposed
+title: A series graph's topics live in TOP
+text: A series graph holds its topic items in TOP, folder topics/.
+rationale: A topic is a subject a series covers, recorded so a topic already covered
+  is not repeated unnoticed. A topic may stand on its own.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: TOP
+  dir: topics
+  holds: topic
+  label: Topics
+  origin: ai

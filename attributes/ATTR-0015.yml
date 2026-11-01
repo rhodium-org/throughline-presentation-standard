@@ -1,0 +1,16 @@
+uid: ATTR-0015
+type: attribute
+status: proposed
+title: A series's search terms
+text: 'A series''s search_terms: optional; part of what a signature covers.'
+rationale: The web searches a pipeline run makes for this series, one to a line.
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: search_terms
+  normative: true
+  origin: ai

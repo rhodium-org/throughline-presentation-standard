@@ -1,0 +1,18 @@
+uid: ATTR-0050
+type: attribute
+status: proposed
+title: A claim's product
+text: 'A claim''s product: optional; part of what a signature covers.'
+rationale: 'A claim may record product: the product a product claim is about, matched
+  to its source''s official_for. Its value is text. Part of what a signature on the
+  item covers.'
+normative: true
+links:
+- target: REG-0010
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: product
+  normative: true
+  origin: ai

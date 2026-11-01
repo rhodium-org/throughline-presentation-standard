@@ -1,0 +1,18 @@
+uid: ATTR-0012
+type: attribute
+status: proposed
+title: A series's approval
+text: 'A series''s approval: required; part of what a signature covers.'
+rationale: Whether an edition made by a pipeline run waits for a person's sign-off
+  before it is published.
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: ENUM-0008
+  type: has_type
+attrs:
+  name: approval
+  required: true
+  normative: true
+  origin: ai

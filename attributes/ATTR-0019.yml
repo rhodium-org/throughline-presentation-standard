@@ -1,0 +1,17 @@
+uid: ATTR-0019
+type: attribute
+status: proposed
+title: An edition's basis
+text: 'An edition''s basis: required; not part of what a signature covers.'
+rationale: 'A edition may record basis: whether the edition is written from the graph
+  or carried over from before the graph. Its value is one of graph, legacy. Required.'
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: ENUM-0003
+  type: has_type
+attrs:
+  name: basis
+  required: true
+  origin: ai

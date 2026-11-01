@@ -1,0 +1,17 @@
+uid: LINK-0003
+type: link
+status: proposed
+title: An interest derives from its series
+text: An interest derives from its series.
+rationale: An interest is one thing a series' audience wants from it. It derives
+  from its series.
+normative: true
+links:
+- target: REG-0012
+  type: from
+- target: REG-0005
+  type: to
+- target: meta:LT-0001
+  type: via
+attrs:
+  origin: ai

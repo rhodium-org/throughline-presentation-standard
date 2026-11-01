@@ -1,0 +1,18 @@
+uid: ATTR-0051
+type: attribute
+status: proposed
+title: A role's tasks
+text: 'A role''s tasks: required; part of what a signature covers.'
+rationale: 'A role may record tasks: what the role does on an engagement, one to
+  a line. Its value is text. Required. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0013
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: tasks
+  required: true
+  normative: true
+  origin: ai

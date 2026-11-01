@@ -1,0 +1,17 @@
+uid: REG-0006
+type: register
+status: proposed
+title: A series graph's editions live in ED
+text: A series graph holds its edition items in ED, folder editions/.
+rationale: 'An edition is one deck of a series: a briefing for a month or a training
+  deck on a subject. It derives from its series.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: ED
+  dir: editions
+  holds: edition
+  label: Editions
+  origin: ai

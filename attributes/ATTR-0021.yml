@@ -1,0 +1,16 @@
+uid: ATTR-0021
+type: attribute
+status: proposed
+title: An edition's news to
+text: 'An edition''s news_to: optional; not part of what a signature covers.'
+rationale: 'A edition may record news_to: the last day of the news a briefing edition
+  covers. Its value is a date.'
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: TYPE-0003
+  type: has_type
+attrs:
+  name: news_to
+  origin: ai

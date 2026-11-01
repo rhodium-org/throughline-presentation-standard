@@ -1,0 +1,19 @@
+uid: ATTR-0008
+type: attribute
+status: proposed
+title: A series's kind
+text: 'A series''s kind: required; part of what a signature covers.'
+rationale: 'A series may record kind: whether the series is a briefing series or
+  a training series, which decides the rules its editions meet. Its value is one
+  of briefing, training. Required. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: ENUM-0002
+  type: has_type
+attrs:
+  name: kind
+  required: true
+  normative: true
+  origin: ai

@@ -1,0 +1,16 @@
+uid: ATTR-0010
+type: attribute
+status: proposed
+title: A series's motif
+text: 'A series''s motif: optional; not part of what a signature covers.'
+rationale: 'A series may record motif: a picture drawn on the dividers of every deck
+  in the series. Its value is text.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: motif
+  origin: ai

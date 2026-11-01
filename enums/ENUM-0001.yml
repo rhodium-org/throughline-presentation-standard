@@ -1,0 +1,12 @@
+uid: ENUM-0001
+type: enum
+status: proposed
+title: Cover layout
+text: 'One of: series, deck.'
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+attrs:
+  values: series, deck
+  origin: ai

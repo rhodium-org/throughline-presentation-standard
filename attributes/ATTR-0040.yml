@@ -1,0 +1,16 @@
+uid: ATTR-0040
+type: attribute
+status: proposed
+title: A thread's tone
+text: 'A thread''s tone: optional; not part of what a signature covers.'
+rationale: The section's own colour, in place of the one its place in turn would
+  give it.
+normative: true
+links:
+- target: REG-0007
+  type: belongs_to
+- target: ENUM-0009
+  type: has_type
+attrs:
+  name: tone
+  origin: ai

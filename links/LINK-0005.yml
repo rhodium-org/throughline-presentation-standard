@@ -1,0 +1,17 @@
+uid: LINK-0005
+type: link
+status: proposed
+title: A thread relates to the topics it covers
+text: A thread relates to the topics it covers.
+rationale: A topic is a subject a series covers, recorded so a topic already covered
+  is not repeated unnoticed. A topic may stand on its own.
+normative: true
+links:
+- target: REG-0007
+  type: from
+- target: REG-0011
+  type: to
+- target: LT-0001
+  type: via
+attrs:
+  origin: ai

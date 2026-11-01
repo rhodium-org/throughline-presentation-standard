@@ -1,0 +1,16 @@
+uid: ATTR-0018
+type: attribute
+status: proposed
+title: A series's review days
+text: 'A series''s review_days: optional; part of what a signature covers.'
+rationale: How many days a training deck's check stays good.
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0004
+  type: has_type
+attrs:
+  name: review_days
+  normative: true
+  origin: ai

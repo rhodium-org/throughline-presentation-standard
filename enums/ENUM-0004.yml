@@ -1,0 +1,12 @@
+uid: ENUM-0004
+type: enum
+status: proposed
+title: Subject kind
+text: 'One of: role, product, common.'
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+attrs:
+  values: role, product, common
+  origin: ai

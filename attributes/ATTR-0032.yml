@@ -1,0 +1,16 @@
+uid: ATTR-0032
+type: attribute
+status: proposed
+title: An edition's motif
+text: 'An edition''s motif: optional; not part of what a signature covers.'
+rationale: 'A edition may record motif: a picture drawn on this deck''s dividers,
+  in place of the series'' motif. Its value is text.'
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: motif
+  origin: ai

@@ -1,0 +1,19 @@
+uid: LINK-0007
+type: link
+status: proposed
+title: A claim derives from its thread and the sources it rests on
+text: A claim derives from its thread and the sources it rests on.
+rationale: A claim is one statement a slide makes, resting on a source, and what
+  kind of statement it is.
+normative: true
+links:
+- target: REG-0010
+  type: from
+- target: REG-0007
+  type: to
+- target: REG-0009
+  type: to
+- target: meta:LT-0001
+  type: via
+attrs:
+  origin: ai

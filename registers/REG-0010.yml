@@ -1,0 +1,17 @@
+uid: REG-0010
+type: register
+status: proposed
+title: A series graph's claims live in CLM
+text: A series graph holds its claim items in CLM, folder claims/.
+rationale: A claim is one statement a slide makes, resting on a source, and what
+  kind of statement it is.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: CLM
+  dir: claims
+  holds: claim
+  label: Claims
+  origin: ai

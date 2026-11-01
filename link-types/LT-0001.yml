@@ -1,0 +1,13 @@
+uid: LT-0001
+type: link_type
+status: proposed
+title: The link type relates
+text: A thread is about a topic; relating is no grounding.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: relates
+  grounds: false
+  origin: ai

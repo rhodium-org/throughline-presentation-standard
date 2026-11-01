@@ -1,0 +1,13 @@
+uid: LT-0002
+type: link_type
+status: proposed
+title: The link type includes
+text: A training edition includes a thread written for an earlier edition.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: includes
+  grounds: false
+  origin: ai

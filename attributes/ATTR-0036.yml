@@ -1,0 +1,16 @@
+uid: ATTR-0036
+type: attribute
+status: proposed
+title: A thread's changed since
+text: 'A thread''s changed_since: optional; not part of what a signature covers.'
+rationale: 'A thread may record changed_since: what changed since the edition before.
+  Its value is text.'
+normative: true
+links:
+- target: REG-0007
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: changed_since
+  origin: ai

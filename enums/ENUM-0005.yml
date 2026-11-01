@@ -1,0 +1,12 @@
+uid: ENUM-0005
+type: enum
+status: proposed
+title: Accent
+text: 'One of: 1, 2, 3, 4, 5.'
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+attrs:
+  values: 1, 2, 3, 4, 5
+  origin: ai

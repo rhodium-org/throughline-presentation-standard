@@ -1,0 +1,19 @@
+uid: REG-0005
+type: register
+status: proposed
+title: A series graph's series live in SER
+text: A series graph holds its series items in SER, folder series/, exactly one.
+rationale: 'A series graph holds one series item: the series'' name and audience,
+  its cover, what kind of series it is and how its decks are marked. Interests and
+  editions derive from it.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: SER
+  dir: series
+  holds: series
+  label: Series
+  exactly_one: true
+  origin: ai

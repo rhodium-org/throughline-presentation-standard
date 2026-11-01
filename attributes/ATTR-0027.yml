@@ -1,0 +1,17 @@
+uid: ATTR-0027
+type: attribute
+status: proposed
+title: An edition's month
+text: 'An edition''s month: optional; part of what a signature covers.'
+rationale: 'A edition may record month: the month a briefing edition covers; a training
+  edition has none. Its value is text. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: month
+  normative: true
+  origin: ai

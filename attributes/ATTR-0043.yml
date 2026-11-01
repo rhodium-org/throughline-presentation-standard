@@ -1,0 +1,18 @@
+uid: ATTR-0043
+type: attribute
+status: proposed
+title: A source's url
+text: 'A source''s url: required; part of what a signature covers.'
+rationale: 'A source may record url: where the source can be read. Its value is text.
+  Required. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0009
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: url
+  required: true
+  normative: true
+  origin: ai

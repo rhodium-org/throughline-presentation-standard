@@ -1,0 +1,19 @@
+uid: REG-0013
+type: register
+status: proposed
+title: A series graph's roles live in ROLE
+text: A series graph holds its role items in ROLE, folder roles/.
+rationale: 'A role is a job a deck can be written for: what it does on an engagement
+  and the tools of its trade. A role may stand on its own and is shared by every
+  series.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: ROLE
+  dir: roles
+  holds: role
+  label: Roles
+  required: false
+  origin: ai

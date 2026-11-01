@@ -1,0 +1,17 @@
+uid: ATTR-0041
+type: attribute
+status: proposed
+title: A slide's order
+text: 'A slide''s order: required; not part of what a signature covers.'
+rationale: 'A slide may record order: the slide''s place in its thread. Its value
+  is a whole number. Required.'
+normative: true
+links:
+- target: REG-0008
+  type: belongs_to
+- target: TYPE-0004
+  type: has_type
+attrs:
+  name: order
+  required: true
+  origin: ai

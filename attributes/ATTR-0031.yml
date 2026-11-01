@@ -1,0 +1,16 @@
+uid: ATTR-0031
+type: attribute
+status: proposed
+title: An edition's checked
+text: 'An edition''s checked: optional; not part of what a signature covers.'
+rationale: 'A edition may record checked: the day a training edition''s sources were
+  last checked. Its value is a date.'
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: TYPE-0003
+  type: has_type
+attrs:
+  name: checked
+  origin: ai

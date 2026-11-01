@@ -1,0 +1,11 @@
+uid: TYPE-0002
+type: type
+status: proposed
+title: Paragraphs
+text: Text of any length, one or more lines.
+normative: true
+links:
+- target: meta:BASE-0002
+  type: has_type
+attrs:
+  origin: ai

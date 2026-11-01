@@ -1,0 +1,12 @@
+uid: ENUM-0002
+type: enum
+status: proposed
+title: Series kind
+text: 'One of: briefing, training.'
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+attrs:
+  values: briefing, training
+  origin: ai

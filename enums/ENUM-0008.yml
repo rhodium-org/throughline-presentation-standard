@@ -1,0 +1,12 @@
+uid: ENUM-0008
+type: enum
+status: proposed
+title: Approval
+text: 'One of: person, none.'
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+attrs:
+  values: person, none
+  origin: ai

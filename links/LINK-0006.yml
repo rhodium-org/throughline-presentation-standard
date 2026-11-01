@@ -1,0 +1,19 @@
+uid: LINK-0006
+type: link
+status: proposed
+title: A slide derives from its thread and the claims it shows
+text: A slide derives from its thread and the claims it shows.
+rationale: A slide is one slide of a thread, with its place in the order and its
+  layout.
+normative: true
+links:
+- target: REG-0008
+  type: from
+- target: REG-0007
+  type: to
+- target: REG-0010
+  type: to
+- target: meta:LT-0001
+  type: via
+attrs:
+  origin: ai

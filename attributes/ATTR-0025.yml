@@ -1,0 +1,16 @@
+uid: ATTR-0025
+type: attribute
+status: proposed
+title: An edition's presenter
+text: 'An edition''s presenter: optional; not part of what a signature covers.'
+rationale: 'A edition may record presenter: who presents the edition. Its value is
+  text.'
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: presenter
+  origin: ai
