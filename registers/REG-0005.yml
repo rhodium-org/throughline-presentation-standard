@@ -21,11 +21,11 @@ attrs:
   origin: ai
 ratifications:
 - by: Henry Grech-Cini
-  at: '2026-11-01T18:52:35Z'
-  fingerprint: sha256:be675516e20d9897ebee42e1595e3bc465dd06975f6bbebe7d0492915776f951
+  at: '2026-11-02T19:48:41Z'
+  fingerprint: sha256:68b725a753fa7631c23e6b2b26bae8b715179db31a92088124c89376ffde2a38
   content:
     type: register
-    text: A series graph holds its series items in SER, folder series/, exactly one.
+    text: A series graph holds its series items in SER, folder series/, one or more.
     normative: true
     derived: false
     attrs: {}
