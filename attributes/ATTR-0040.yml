@@ -1,6 +1,6 @@
 uid: ATTR-0040
 type: attribute
-status: proposed
+status: ratified
 title: A thread's tone
 text: 'A thread''s tone: optional; not part of what a signature covers.'
 rationale: The section's own colour, in place of the one its place in turn would
@@ -14,3 +14,13 @@ links:
 attrs:
   name: tone
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:46Z'
+  fingerprint: sha256:3fe7fcec6449eaed55f27f61d739594566bc712d13489982900ffccb0083e511
+  content:
+    type: attribute
+    text: 'A thread''s tone: optional; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

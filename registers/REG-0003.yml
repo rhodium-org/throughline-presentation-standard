@@ -1,6 +1,6 @@
 uid: REG-0003
 type: register
-status: proposed
+status: ratified
 title: The standard's rules live in RULE
 text: This standard holds its own rule items in RULE, folder rules/. They bind no
   series.
@@ -15,3 +15,14 @@ attrs:
   label: Rules
   scope: this-graph
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:35Z'
+  fingerprint: sha256:e233bb4a41aad43e87bff11b40c9ce53bb0954578e56f043bff2d2d3488a5250
+  content:
+    type: register
+    text: This standard holds its own rule items in RULE, folder rules/. They bind
+      no series.
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,6 +1,6 @@
 uid: ATTR-0041
 type: attribute
-status: proposed
+status: ratified
 title: A slide's order
 text: 'A slide''s order: required; not part of what a signature covers.'
 rationale: 'A slide may record order: the slide''s place in its thread. Its value
@@ -15,3 +15,13 @@ attrs:
   name: order
   required: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:46Z'
+  fingerprint: sha256:1686e20bd9cdd6e8f9f7976ecc4511449e3000c727a71b4b70a63768e9ad1f9b
+  content:
+    type: attribute
+    text: 'A slide''s order: required; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

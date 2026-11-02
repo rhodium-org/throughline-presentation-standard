@@ -1,6 +1,6 @@
 uid: REG-0006
 type: register
-status: proposed
+status: ratified
 title: A series graph's editions live in ED
 text: A series graph holds its edition items in ED, folder editions/.
 rationale: 'An edition is one deck of a series: a briefing for a month or a training
@@ -15,3 +15,13 @@ attrs:
   holds: edition
   label: Editions
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:35Z'
+  fingerprint: sha256:522f8ed2bd4e5d16b66b2215a38a033c7ae0b343c76472ac5f42be849c16c3b4
+  content:
+    type: register
+    text: A series graph holds its edition items in ED, folder editions/.
+    normative: true
+    derived: false
+    attrs: {}

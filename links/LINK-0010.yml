@@ -1,6 +1,6 @@
 uid: LINK-0010
 type: link
-status: proposed
+status: ratified
 title: An example verifies a rule
 text: An example verifies a rule.
 normative: true
@@ -14,3 +14,13 @@ links:
 attrs:
   scope: this-graph
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:54Z'
+  fingerprint: sha256:61b84f17ba9cdf28ad4df90e57b6d9330292fe206e9b30c2f3828b77e22ea601
+  content:
+    type: link
+    text: An example verifies a rule.
+    normative: true
+    derived: false
+    attrs: {}

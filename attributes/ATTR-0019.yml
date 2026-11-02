@@ -1,6 +1,6 @@
 uid: ATTR-0019
 type: attribute
-status: proposed
+status: ratified
 title: An edition's basis
 text: 'An edition''s basis: required; not part of what a signature covers.'
 rationale: 'A edition may record basis: whether the edition is written from the graph
@@ -15,3 +15,13 @@ attrs:
   name: basis
   required: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:41Z'
+  fingerprint: sha256:534fb3bb717d196e4bbd81ef75fedae970e1bf51a1ffb56a34dca581288b2491
+  content:
+    type: attribute
+    text: 'An edition''s basis: required; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

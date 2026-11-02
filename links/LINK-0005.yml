@@ -1,6 +1,6 @@
 uid: LINK-0005
 type: link
-status: proposed
+status: ratified
 title: A thread relates to the topics it covers
 text: A thread relates to the topics it covers.
 rationale: A topic is a subject a series covers, recorded so a topic already covered
@@ -15,3 +15,13 @@ links:
   type: via
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:53Z'
+  fingerprint: sha256:6608e118a1eea9d43f5a378964ad910bbffa1ed14d889d3679a859000eff0395
+  content:
+    type: link
+    text: A thread relates to the topics it covers.
+    normative: true
+    derived: false
+    attrs: {}

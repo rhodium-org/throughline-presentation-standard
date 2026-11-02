@@ -1,6 +1,6 @@
 uid: ATTR-0045
 type: attribute
-status: proposed
+status: ratified
 title: A source's checked
 text: 'A source''s checked: required; not part of what a signature covers.'
 rationale: 'A source may record checked: the day it was last checked. Its value is
@@ -15,3 +15,13 @@ attrs:
   name: checked
   required: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:47Z'
+  fingerprint: sha256:ce8bbed85950210f8e63ac383ad383ee56d9edb14a23b0b69436476813802ef8
+  content:
+    type: attribute
+    text: 'A source''s checked: required; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,6 +1,6 @@
 uid: ATTR-0021
 type: attribute
-status: proposed
+status: ratified
 title: An edition's news to
 text: 'An edition''s news_to: optional; not part of what a signature covers.'
 rationale: 'A edition may record news_to: the last day of the news a briefing edition
@@ -14,3 +14,13 @@ links:
 attrs:
   name: news_to
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:42Z'
+  fingerprint: sha256:472ff49a52f6fddee1a1bd5bb28128f1f06a1b7f647eafa27296c3fc1ac42112
+  content:
+    type: attribute
+    text: 'An edition''s news_to: optional; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

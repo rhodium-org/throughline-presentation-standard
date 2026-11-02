@@ -1,6 +1,6 @@
 uid: ATTR-0005
 type: attribute
-status: proposed
+status: ratified
 title: A series's cover mark
 text: 'A series''s cover_mark: required; not part of what a signature covers.'
 rationale: 'A series may record cover_mark: the picture that completes the series
@@ -15,3 +15,13 @@ attrs:
   name: cover_mark
   required: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:38Z'
+  fingerprint: sha256:17818554b7745eeda8de02b89b34a95083d4c30d4b9da1ebdfb662af7dde1d35
+  content:
+    type: attribute
+    text: 'A series''s cover_mark: required; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

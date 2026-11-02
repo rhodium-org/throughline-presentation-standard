@@ -1,6 +1,6 @@
 uid: ATTR-0007
 type: attribute
-status: proposed
+status: ratified
 title: A series's cover layout
 text: 'A series''s cover_layout: optional; part of what a signature covers.'
 rationale: 'A series may record cover_layout: whether the cover''s band holds the
@@ -16,3 +16,13 @@ attrs:
   name: cover_layout
   normative: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:38Z'
+  fingerprint: sha256:56b2fa184aff8ba7758ff600bb746d7fa72d1407e8dbbbbcf291920ea766adce
+  content:
+    type: attribute
+    text: 'A series''s cover_layout: optional; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

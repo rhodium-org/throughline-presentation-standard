@@ -1,6 +1,6 @@
 uid: ATTR-0038
 type: attribute
-status: proposed
+status: ratified
 title: A thread's narration
 text: 'A thread''s narration: optional; not part of what a signature covers.'
 rationale: 'A thread may record narration: a person''s wording of what is spoken
@@ -14,3 +14,13 @@ links:
 attrs:
   name: narration
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:45Z'
+  fingerprint: sha256:e6200291defeb48c34294bc0a4986790d23355092c76c5bc9c069bcff85a8f37
+  content:
+    type: attribute
+    text: 'A thread''s narration: optional; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

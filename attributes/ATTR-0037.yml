@@ -1,6 +1,6 @@
 uid: ATTR-0037
 type: attribute
-status: proposed
+status: ratified
 title: A thread's notes
 text: 'A thread''s notes: optional; not part of what a signature covers.'
 rationale: 'A thread may record notes: what the presenter says at the thread''s divider.
@@ -14,3 +14,13 @@ links:
 attrs:
   name: notes
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:45Z'
+  fingerprint: sha256:c4e09a8e4ad1dcecab3ea33e37262de9c0c335c00bd254c59061ab42a394a184
+  content:
+    type: attribute
+    text: 'A thread''s notes: optional; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

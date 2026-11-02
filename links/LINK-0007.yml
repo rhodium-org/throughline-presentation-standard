@@ -1,6 +1,6 @@
 uid: LINK-0007
 type: link
-status: proposed
+status: ratified
 title: A claim derives from its thread and the sources it rests on
 text: A claim derives from its thread and the sources it rests on.
 rationale: A claim is one statement a slide makes, resting on a source, and what
@@ -17,3 +17,13 @@ links:
   type: via
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:54Z'
+  fingerprint: sha256:acf506e8c8ae69a55f5b8f500a5983d4d7bc40b6df701fac7a7b5af00ea43572
+  content:
+    type: link
+    text: A claim derives from its thread and the sources it rests on.
+    normative: true
+    derived: false
+    attrs: {}

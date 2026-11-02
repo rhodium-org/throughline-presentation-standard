@@ -1,6 +1,6 @@
 uid: ATTR-0036
 type: attribute
-status: proposed
+status: ratified
 title: A thread's changed since
 text: 'A thread''s changed_since: optional; not part of what a signature covers.'
 rationale: 'A thread may record changed_since: what changed since the edition before.
@@ -14,3 +14,13 @@ links:
 attrs:
   name: changed_since
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:45Z'
+  fingerprint: sha256:1a083582aebf848a48423253bff10c67917bd95bf58a7430c6fb8c5ea94e2143
+  content:
+    type: attribute
+    text: 'A thread''s changed_since: optional; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

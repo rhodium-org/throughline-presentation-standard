@@ -1,6 +1,6 @@
 uid: ATTR-0016
 type: attribute
-status: proposed
+status: ratified
 title: A series's news brief topic
 text: 'A series''s news_brief_topic: optional; part of what a signature covers.'
 rationale: The news-brief topic a pipeline run reads for this series.
@@ -14,3 +14,13 @@ attrs:
   name: news_brief_topic
   normative: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:40Z'
+  fingerprint: sha256:910c0395b13618223df788da0803e4231a104d4f0b0fb829cf30285fc3ea05b7
+  content:
+    type: attribute
+    text: 'A series''s news_brief_topic: optional; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

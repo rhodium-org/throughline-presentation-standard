@@ -1,6 +1,6 @@
 uid: ATTR-0032
 type: attribute
-status: proposed
+status: ratified
 title: An edition's motif
 text: 'An edition''s motif: optional; not part of what a signature covers.'
 rationale: 'A edition may record motif: a picture drawn on this deck''s dividers,
@@ -14,3 +14,13 @@ links:
 attrs:
   name: motif
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:44Z'
+  fingerprint: sha256:4ab16b8ed69cc8452e9b565491d8297b7ecbcb6a2b88b247ab6c42eea5f4b55c
+  content:
+    type: attribute
+    text: 'An edition''s motif: optional; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

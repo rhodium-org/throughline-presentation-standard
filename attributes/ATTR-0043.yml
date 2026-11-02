@@ -1,6 +1,6 @@
 uid: ATTR-0043
 type: attribute
-status: proposed
+status: ratified
 title: A source's url
 text: 'A source''s url: required; part of what a signature covers.'
 rationale: 'A source may record url: where the source can be read. Its value is text.
@@ -16,3 +16,13 @@ attrs:
   required: true
   normative: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:47Z'
+  fingerprint: sha256:e95a826cf016efa07b78e80ea89c0d6b73dd4618ccfab3625f3fdc66e644d865
+  content:
+    type: attribute
+    text: 'A source''s url: required; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,6 +1,6 @@
 uid: ENUM-0010
 type: enum
-status: proposed
+status: ratified
 title: Found via
 text: 'One of: news-brief, web.'
 normative: true
@@ -10,3 +10,13 @@ links:
 attrs:
   values: news-brief, web
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:52Z'
+  fingerprint: sha256:bbe03305956c70f1de6c5818973c4616f5007b0572893c09c05a8acca292d405
+  content:
+    type: enum
+    text: 'One of: news-brief, web.'
+    normative: true
+    derived: false
+    attrs: {}

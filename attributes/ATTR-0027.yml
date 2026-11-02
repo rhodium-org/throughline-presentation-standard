@@ -1,6 +1,6 @@
 uid: ATTR-0027
 type: attribute
-status: proposed
+status: ratified
 title: An edition's month
 text: 'An edition''s month: optional; part of what a signature covers.'
 rationale: 'A edition may record month: the month a briefing edition covers; a training
@@ -15,3 +15,13 @@ attrs:
   name: month
   normative: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:43Z'
+  fingerprint: sha256:4155493e5459c36fd9afac4f8d70411d9e556a6ac4a2e1b8c4c7bc190b1d86e3
+  content:
+    type: attribute
+    text: 'An edition''s month: optional; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

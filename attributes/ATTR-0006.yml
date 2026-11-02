@@ -1,6 +1,6 @@
 uid: ATTR-0006
 type: attribute
-status: proposed
+status: ratified
 title: A series's cover mark alt
 text: 'A series''s cover_mark_alt: required; part of what a signature covers.'
 rationale: 'A series may record cover_mark_alt: what the cover mark says, for those
@@ -17,3 +17,13 @@ attrs:
   required: true
   normative: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:38Z'
+  fingerprint: sha256:aa57b0b7d1a33c39bb7cd0d2ba652ad12c15cc407e61e8faa237c3d74cbc687b
+  content:
+    type: attribute
+    text: 'A series''s cover_mark_alt: required; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

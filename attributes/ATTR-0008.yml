@@ -1,6 +1,6 @@
 uid: ATTR-0008
 type: attribute
-status: proposed
+status: ratified
 title: A series's kind
 text: 'A series''s kind: required; part of what a signature covers.'
 rationale: 'A series may record kind: whether the series is a briefing series or
@@ -17,3 +17,13 @@ attrs:
   required: true
   normative: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:39Z'
+  fingerprint: sha256:c233281595d801ef11a4c665dfd554105436ebd0bf2d1de818d57fe827156538
+  content:
+    type: attribute
+    text: 'A series''s kind: required; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

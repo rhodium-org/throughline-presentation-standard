@@ -1,6 +1,6 @@
 uid: ENUM-0004
 type: enum
-status: proposed
+status: ratified
 title: Subject kind
 text: 'One of: role, product, common.'
 normative: true
@@ -10,3 +10,13 @@ links:
 attrs:
   values: role, product, common
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:51Z'
+  fingerprint: sha256:fdad59521fccedb1a484d5af76cdaef22c804eaf5b4b5b33b7dfd8d13164474e
+  content:
+    type: enum
+    text: 'One of: role, product, common.'
+    normative: true
+    derived: false
+    attrs: {}

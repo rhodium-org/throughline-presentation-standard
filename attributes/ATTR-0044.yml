@@ -1,6 +1,6 @@
 uid: ATTR-0044
 type: attribute
-status: proposed
+status: ratified
 title: A source's publisher
 text: 'A source''s publisher: required; part of what a signature covers.'
 rationale: 'A source may record publisher: who published it. Its value is text. Required.
@@ -16,3 +16,13 @@ attrs:
   required: true
   normative: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:47Z'
+  fingerprint: sha256:528493ffa28bcd7583c1f2c2dec675b544e47024ba10d34097f569e3e8cf42d6
+  content:
+    type: attribute
+    text: 'A source''s publisher: required; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

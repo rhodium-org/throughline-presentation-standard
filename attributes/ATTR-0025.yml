@@ -1,6 +1,6 @@
 uid: ATTR-0025
 type: attribute
-status: proposed
+status: ratified
 title: An edition's presenter
 text: 'An edition''s presenter: optional; not part of what a signature covers.'
 rationale: 'A edition may record presenter: who presents the edition. Its value is
@@ -14,3 +14,13 @@ links:
 attrs:
   name: presenter
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:42Z'
+  fingerprint: sha256:0144a1f48874a76555ec3fec62f29b06369561a8c332dfbad50abab1a4d0d887
+  content:
+    type: attribute
+    text: 'An edition''s presenter: optional; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

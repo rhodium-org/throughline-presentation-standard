@@ -1,6 +1,6 @@
 uid: REG-0005
 type: register
-status: proposed
+status: ratified
 title: A series graph's series live in SER
 text: A series graph holds its series items in SER, folder series/, exactly one.
 rationale: 'A series graph holds one series item: the series'' name and audience,
@@ -17,3 +17,13 @@ attrs:
   label: Series
   exactly_one: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:35Z'
+  fingerprint: sha256:be675516e20d9897ebee42e1595e3bc465dd06975f6bbebe7d0492915776f951
+  content:
+    type: register
+    text: A series graph holds its series items in SER, folder series/, exactly one.
+    normative: true
+    derived: false
+    attrs: {}

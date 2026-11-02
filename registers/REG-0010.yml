@@ -1,6 +1,6 @@
 uid: REG-0010
 type: register
-status: proposed
+status: ratified
 title: A series graph's claims live in CLM
 text: A series graph holds its claim items in CLM, folder claims/.
 rationale: A claim is one statement a slide makes, resting on a source, and what
@@ -15,3 +15,13 @@ attrs:
   holds: claim
   label: Claims
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:36Z'
+  fingerprint: sha256:1a8f364375e18d8db3235f318af3e1084fced962cb18e93ce20da97f06c50f1a
+  content:
+    type: register
+    text: A series graph holds its claim items in CLM, folder claims/.
+    normative: true
+    derived: false
+    attrs: {}

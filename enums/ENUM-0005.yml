@@ -1,6 +1,6 @@
 uid: ENUM-0005
 type: enum
-status: proposed
+status: ratified
 title: Accent
 text: 'One of: 1, 2, 3, 4, 5.'
 normative: true
@@ -10,3 +10,13 @@ links:
 attrs:
   values: 1, 2, 3, 4, 5
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:51Z'
+  fingerprint: sha256:bef9f0e3706c572f60a18047ac3162ac44dd5bb6e6ac8b501ec4131d1376b5cf
+  content:
+    type: enum
+    text: 'One of: 1, 2, 3, 4, 5.'
+    normative: true
+    derived: false
+    attrs: {}

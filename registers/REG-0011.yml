@@ -1,6 +1,6 @@
 uid: REG-0011
 type: register
-status: proposed
+status: ratified
 title: A series graph's topics live in TOP
 text: A series graph holds its topic items in TOP, folder topics/.
 rationale: A topic is a subject a series covers, recorded so a topic already covered
@@ -15,3 +15,13 @@ attrs:
   holds: topic
   label: Topics
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:36Z'
+  fingerprint: sha256:918ee30a140666f01ce019e022c99d10c4967e7da95e1470563950130fd24a5d
+  content:
+    type: register
+    text: A series graph holds its topic items in TOP, folder topics/.
+    normative: true
+    derived: false
+    attrs: {}

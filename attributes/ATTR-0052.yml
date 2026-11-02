@@ -1,6 +1,6 @@
 uid: ATTR-0052
 type: attribute
-status: proposed
+status: ratified
 title: A role's tools
 text: 'A role''s tools: required; part of what a signature covers.'
 rationale: 'A role may record tools: the tools of the role''s trade, one to a line.
@@ -16,3 +16,13 @@ attrs:
   required: true
   normative: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:49Z'
+  fingerprint: sha256:51290d4b4e831f5aa85ac3c23633731938847aacd808c2e3ca31b8dfd70b860f
+  content:
+    type: attribute
+    text: 'A role''s tools: required; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

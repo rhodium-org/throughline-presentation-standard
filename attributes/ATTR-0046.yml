@@ -1,6 +1,6 @@
 uid: ATTR-0046
 type: attribute
-status: proposed
+status: ratified
 title: A source's published
 text: 'A source''s published: optional; part of what a signature covers.'
 rationale: 'A source may record published: the day it was published; documentation
@@ -15,3 +15,13 @@ attrs:
   name: published
   normative: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:47Z'
+  fingerprint: sha256:340700ebe148c8e9b54b1bab42c5ac9c3167e6fc140a2d8fb3f65a54d8bd6094
+  content:
+    type: attribute
+    text: 'A source''s published: optional; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

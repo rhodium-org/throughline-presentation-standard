@@ -1,6 +1,6 @@
 uid: REG-0013
 type: register
-status: proposed
+status: ratified
 title: A series graph's roles live in ROLE
 text: A series graph holds its role items in ROLE, folder roles/.
 rationale: 'A role is a job a deck can be written for: what it does on an engagement
@@ -17,3 +17,13 @@ attrs:
   label: Roles
   required: false
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:37Z'
+  fingerprint: sha256:ebe8fac53d124c44d3a6e395064b3c72619b60d3564229830cb8e08a38feda61
+  content:
+    type: register
+    text: A series graph holds its role items in ROLE, folder roles/.
+    normative: true
+    derived: false
+    attrs: {}

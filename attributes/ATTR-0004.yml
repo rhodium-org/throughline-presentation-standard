@@ -1,6 +1,6 @@
 uid: ATTR-0004
 type: attribute
-status: proposed
+status: ratified
 title: A series's cover title
 text: 'A series''s cover_title: required; part of what a signature covers.'
 rationale: 'A series may record cover_title: the words beside the series mark on
@@ -16,3 +16,13 @@ attrs:
   required: true
   normative: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:38Z'
+  fingerprint: sha256:75741743940f3d3c8569f8e37caca27c389281014d4308009f43578572ebb211
+  content:
+    type: attribute
+    text: 'A series''s cover_title: required; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

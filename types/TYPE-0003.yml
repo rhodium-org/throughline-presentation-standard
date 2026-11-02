@@ -1,6 +1,6 @@
 uid: TYPE-0003
 type: type
-status: proposed
+status: ratified
 title: Date
 text: A calendar date, YYYY-MM-DD.
 normative: true
@@ -9,3 +9,13 @@ links:
   type: has_type
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:55Z'
+  fingerprint: sha256:5c1966e09f5f3a68671fdfbd4095420c1bc4eadea9d37b90f9a8e9b4f5627f61
+  content:
+    type: type
+    text: A calendar date, YYYY-MM-DD.
+    normative: true
+    derived: false
+    attrs: {}

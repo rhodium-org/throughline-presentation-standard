@@ -1,6 +1,6 @@
 uid: LINK-0006
 type: link
-status: proposed
+status: ratified
 title: A slide derives from its thread and the claims it shows
 text: A slide derives from its thread and the claims it shows.
 rationale: A slide is one slide of a thread, with its place in the order and its
@@ -17,3 +17,13 @@ links:
   type: via
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:53Z'
+  fingerprint: sha256:b436d5c6207a732ae0d9338f3615d970b0764ab5fd13858041b43fe5b44df2d6
+  content:
+    type: link
+    text: A slide derives from its thread and the claims it shows.
+    normative: true
+    derived: false
+    attrs: {}

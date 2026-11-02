@@ -1,6 +1,6 @@
 uid: ATTR-0031
 type: attribute
-status: proposed
+status: ratified
 title: An edition's checked
 text: 'An edition''s checked: optional; not part of what a signature covers.'
 rationale: 'A edition may record checked: the day a training edition''s sources were
@@ -14,3 +14,13 @@ links:
 attrs:
   name: checked
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:44Z'
+  fingerprint: sha256:77bc117290783abeb584996d0b9a258322d8a4febc31683ea9720f60bb7d4970
+  content:
+    type: attribute
+    text: 'An edition''s checked: optional; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

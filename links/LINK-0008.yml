@@ -1,6 +1,6 @@
 uid: LINK-0008
 type: link
-status: proposed
+status: ratified
 title: A rule derives from the intent, a constraint or another rule
 text: A rule derives from the intent, a constraint or another rule.
 normative: true
@@ -18,3 +18,13 @@ links:
 attrs:
   scope: this-graph
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:54Z'
+  fingerprint: sha256:1608408b63b345bb7e04a27d589ff742012cbc34b0183caaa64652ac77b1d051
+  content:
+    type: link
+    text: A rule derives from the intent, a constraint or another rule.
+    normative: true
+    derived: false
+    attrs: {}

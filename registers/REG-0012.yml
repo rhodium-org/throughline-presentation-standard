@@ -1,6 +1,6 @@
 uid: REG-0012
 type: register
-status: proposed
+status: ratified
 title: A series graph's interests live in AUD
 text: A series graph holds its interest items in AUD, folder interests/.
 rationale: An interest is one thing a series' audience wants from it. It derives
@@ -15,3 +15,13 @@ attrs:
   holds: interest
   label: Interests
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:37Z'
+  fingerprint: sha256:5e7b6b8ff1488d4e0b86ee7d4840a65958db4cd352e8ae7048eb524255354702
+  content:
+    type: register
+    text: A series graph holds its interest items in AUD, folder interests/.
+    normative: true
+    derived: false
+    attrs: {}

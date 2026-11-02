@@ -1,6 +1,6 @@
 uid: ATTR-0026
 type: attribute
-status: proposed
+status: ratified
 title: An edition's presenter role
 text: 'An edition''s presenter_role: optional; not part of what a signature covers.'
 rationale: 'A edition may record presenter_role: the presenter''s role, shown under
@@ -14,3 +14,13 @@ links:
 attrs:
   name: presenter_role
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:43Z'
+  fingerprint: sha256:4396cfd582e2c8975501fbed1475d7b389bc52e22255c5f9ea46ab078e28c141
+  content:
+    type: attribute
+    text: 'An edition''s presenter_role: optional; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}
