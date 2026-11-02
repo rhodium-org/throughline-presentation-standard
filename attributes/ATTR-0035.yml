@@ -1,0 +1,26 @@
+uid: ATTR-0035
+type: attribute
+status: ratified
+title: A thread's order
+text: 'A thread''s order: optional; not part of what a signature covers.'
+rationale: 'A thread may record order: the thread''s place in its edition. Its value
+  is a whole number.'
+normative: true
+links:
+- target: REG-0007
+  type: belongs_to
+- target: TYPE-0004
+  type: has_type
+attrs:
+  name: order
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:45Z'
+  fingerprint: sha256:e63f77e4f54fd8c422b08c3dbae1717449ad76a283f2391c87b992a661fc47fb
+  content:
+    type: attribute
+    text: 'A thread''s order: optional; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

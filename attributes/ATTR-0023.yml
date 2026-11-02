@@ -1,0 +1,26 @@
+uid: ATTR-0023
+type: attribute
+status: ratified
+title: An edition's narration
+text: 'An edition''s narration: optional; not part of what a signature covers.'
+rationale: 'A edition may record narration: a person''s wording of what is spoken
+  over the cover, in place of a narration made from the notes. Its value is text.'
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: narration
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:42Z'
+  fingerprint: sha256:6c6943573bdbbc6a56af097cd7cba34d5bc062f91bcc62e92a99aa79a9c27efb
+  content:
+    type: attribute
+    text: 'An edition''s narration: optional; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

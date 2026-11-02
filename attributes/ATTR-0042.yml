@@ -1,0 +1,28 @@
+uid: ATTR-0042
+type: attribute
+status: ratified
+title: A slide's layout
+text: 'A slide''s layout: required; not part of what a signature covers.'
+rationale: 'A slide may record layout: how the slide sets out its content. Its value
+  is one of cards, stats, rows, definition, compare, takeaway, screenshot, video.
+  Required.'
+normative: true
+links:
+- target: REG-0008
+  type: belongs_to
+- target: ENUM-0006
+  type: has_type
+attrs:
+  name: layout
+  required: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:46Z'
+  fingerprint: sha256:872a93e6c39440811cec6fa842dded2ce10ffb6062bc75d653af1fcd1dc2ea78
+  content:
+    type: attribute
+    text: 'A slide''s layout: required; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

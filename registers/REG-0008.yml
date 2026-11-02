@@ -1,0 +1,27 @@
+uid: REG-0008
+type: register
+status: ratified
+title: A series graph's slides live in SLD
+text: A series graph holds its slide items in SLD, folder slides/.
+rationale: A slide is one slide of a thread, with its place in the order and its
+  layout.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: SLD
+  dir: slides
+  holds: slide
+  label: Slides
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:36Z'
+  fingerprint: sha256:ebf9b97e6efb14432ab0eedbc2ba396b8b4e7cd000d241e83a0b7126f172ad9b
+  content:
+    type: register
+    text: A series graph holds its slide items in SLD, folder slides/.
+    normative: true
+    derived: false
+    attrs: {}

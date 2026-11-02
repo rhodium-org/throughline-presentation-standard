@@ -1,0 +1,22 @@
+uid: ENUM-0007
+type: enum
+status: ratified
+title: Claim role
+text: 'One of: news, background, guidance, product.'
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+attrs:
+  values: news, background, guidance, product
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:51Z'
+  fingerprint: sha256:bec16ba8e64cc47f2ee9454f90d9239c512bedba042785d0f562a7d340f1a3d0
+  content:
+    type: enum
+    text: 'One of: news, background, guidance, product.'
+    normative: true
+    derived: false
+    attrs: {}

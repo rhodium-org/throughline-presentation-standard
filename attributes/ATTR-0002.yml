@@ -1,0 +1,28 @@
+uid: ATTR-0002
+type: attribute
+status: ratified
+title: A series's audience
+text: 'A series''s audience: required; part of what a signature covers.'
+rationale: 'A series may record audience: who the series is for, in a sentence or
+  two. Its value is text. Required. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: audience
+  required: true
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:37Z'
+  fingerprint: sha256:cb63ede6877602ba470e5cda0acc051f49373fdb2bfd1e7f7f66e3de0b079690
+  content:
+    type: attribute
+    text: 'A series''s audience: required; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

@@ -12,36 +12,43 @@ audience without touching its content.
 
 ## Following the standard
 
-A series graph names this repository as its schema source and declares only what
-it adds:
+A series graph names this repository as its schema source:
 
 ```toml
 [[sources]]
 namespace = "presentation"
 url = "https://github.com/rhodium-org/throughline-presentation-standard"
-ref = "v1.0.0"
+ref = "v2.0.0"
 schema = true
 ```
 
-The series is then checked by this standard's item types, attributes, link types,
-statuses, transitions, roles, grounding and coverage rules, plus its own additions.
-It may add an attribute, a type, a status or a link type, but never redefine one
-declared here. `tl migrate` removes a copy the standard makes redundant. This needs
-throughline 4.4.0 or later.
-
-Everything in this graph's `throughline.toml` is inherited, including the types
-the standard uses for its own items (intent, constraint, rule, example, non-goal).
-They are inert in a series that holds none.
+The series is then checked against this standard's declarations: the registers,
+attributes, links and link types it declares as items, plus the statuses,
+transitions, grounding and coverage rules in its `throughline.toml`. Anything a
+series holds that no declaration names is an error. A series may declare its own
+additions (`scope = "this-graph"`), but never redefine one declared here. This needs
+throughline 4.6.2 or later, and `tl init --from-schema` creates every register
+declared here.
 
 ## What is in this graph
 
 | Register | Holds |
 |---|---|
 | `vision/` (INT) | why the standard exists |
+| `registers/` (REG) | the registers a series holds (SER, exactly one; ED, THR, SLD, SRC, CLM, TOP, AUD; ROLE when it has roles), and this graph's own |
+| `types/` (TYPE), `enums/` (ENUM) | text, paragraphs, date, whole number, and the value sets |
+| `attributes/` (ATTR) | each register's attributes, required or not, signed or not |
+| `links/` (LINK), `link-types/` (LT) | which registers each link joins |
 | `constraints/` (CON) | obligations on the standard itself |
-| `rules/` (RULE) | what a conforming series must do or may hold; every declaration in `throughline.toml` names its rule |
+| `rules/` (RULE) | the prose each declaration takes as its rationale |
 | `examples/` (EX) | the example series graphs in `conformance/`, and the rules each verifies |
 | `non-goals/` (NG) | what the standard leaves out on purpose |
+
+The standard follows the throughline meta-standard
+([throughline-standard-standard](https://github.com/rhodium-org/throughline-standard-standard)),
+which fixes what a declaration is. The prose registers (CON, RULE, EX, NG) are on
+their way out: a standard holds only declarations. Once every rule lives on as the
+rationale of a declaration, or of the configuration it explains, the four registers go.
 
 ## Editions
 

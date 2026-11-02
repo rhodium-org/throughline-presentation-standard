@@ -1,0 +1,27 @@
+uid: ATTR-0034
+type: attribute
+status: ratified
+title: An edition's approval
+text: 'An edition''s approval: optional; part of what a signature covers.'
+rationale: Whether this deck waits for a person's sign-off, where it differs from
+  its series' approval.
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: ENUM-0008
+  type: has_type
+attrs:
+  name: approval
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:45Z'
+  fingerprint: sha256:dec31a51a604079163c175b38e982389c4c761809909615dfd5831b0f7740487
+  content:
+    type: attribute
+    text: 'An edition''s approval: optional; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

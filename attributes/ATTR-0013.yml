@@ -1,0 +1,29 @@
+uid: ATTR-0013
+type: attribute
+status: ratified
+title: A series's cover mark shapes
+text: 'A series''s cover_mark_shapes: optional; not part of what a signature covers.'
+rationale: 'The series mark drawn as shapes of the slide, so it can move in parts:
+  a JSON list of boxes, each with x, y, w and h in units of the mark''s height, a
+  fill colour, and lines of text with size and weight. cover_mark stays the picture
+  shown where shapes cannot be.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: cover_mark_shapes
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:40Z'
+  fingerprint: sha256:62249c43a2f5c39c40195106c02d250ddd99211764e7b40e6f2425ec46e76751
+  content:
+    type: attribute
+    text: 'A series''s cover_mark_shapes: optional; not part of what a signature
+      covers.'
+    normative: true
+    derived: false
+    attrs: {}

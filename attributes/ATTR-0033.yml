@@ -1,0 +1,27 @@
+uid: ATTR-0033
+type: attribute
+status: ratified
+title: An edition's motif alt
+text: 'An edition''s motif_alt: optional; part of what a signature covers.'
+rationale: 'A edition may record motif_alt: what the deck''s motif says, for those
+  who cannot see it. Its value is text. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: motif_alt
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:44Z'
+  fingerprint: sha256:1b6c2f6a9b90d128aca85680a62303d37ad42320404b5fb24649b69d0c44b63f
+  content:
+    type: attribute
+    text: 'An edition''s motif_alt: optional; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

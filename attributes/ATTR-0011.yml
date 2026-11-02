@@ -1,0 +1,27 @@
+uid: ATTR-0011
+type: attribute
+status: ratified
+title: A series's motif alt
+text: 'A series''s motif_alt: optional; part of what a signature covers.'
+rationale: 'A series may record motif_alt: what the motif says, for those who cannot
+  see it. Its value is text. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: motif_alt
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:39Z'
+  fingerprint: sha256:dbe3e3fa3709a90a2b44833100279669be376196bcb4b80a0bb83fa740bb722f
+  content:
+    type: attribute
+    text: 'A series''s motif_alt: optional; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

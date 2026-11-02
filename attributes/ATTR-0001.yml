@@ -1,0 +1,28 @@
+uid: ATTR-0001
+type: attribute
+status: ratified
+title: A series's slug
+text: 'A series''s slug: required; part of what a signature covers.'
+rationale: 'A series may record slug: the short name the series'' files are named
+  by. Its value is text. Required. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: slug
+  required: true
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:37Z'
+  fingerprint: sha256:8be1bcc4db803fb62a6b2a23d0a9a7e62726b320ee3c7c662129c9f70ede62f6
+  content:
+    type: attribute
+    text: 'A series''s slug: required; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

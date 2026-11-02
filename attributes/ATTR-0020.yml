@@ -1,0 +1,26 @@
+uid: ATTR-0020
+type: attribute
+status: ratified
+title: An edition's news from
+text: 'An edition''s news_from: optional; not part of what a signature covers.'
+rationale: 'A edition may record news_from: the first day of the news a briefing
+  edition covers. Its value is a date.'
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: TYPE-0003
+  type: has_type
+attrs:
+  name: news_from
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:41Z'
+  fingerprint: sha256:479165b6303ddee46a2d2ef22922a93827b4c57eb99f3ba7090b4061929c3d67
+  content:
+    type: attribute
+    text: 'An edition''s news_from: optional; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,0 +1,28 @@
+uid: ATTR-0012
+type: attribute
+status: ratified
+title: A series's approval
+text: 'A series''s approval: required; part of what a signature covers.'
+rationale: Whether an edition made by a pipeline run waits for a person's sign-off
+  before it is published.
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: ENUM-0008
+  type: has_type
+attrs:
+  name: approval
+  required: true
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:40Z'
+  fingerprint: sha256:bce2aa4386d8f2b777a57225e2131c1669dc8dc1885a15e70e843311c60b214b
+  content:
+    type: attribute
+    text: 'A series''s approval: required; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

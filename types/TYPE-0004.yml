@@ -1,0 +1,21 @@
+uid: TYPE-0004
+type: type
+status: ratified
+title: Whole number
+text: A whole number.
+normative: true
+links:
+- target: meta:BASE-0003
+  type: has_type
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:56Z'
+  fingerprint: sha256:81813104c7405c6a366f9b912f7ac09f94789e133c81b5a869e410d50711b834
+  content:
+    type: type
+    text: A whole number.
+    normative: true
+    derived: false
+    attrs: {}

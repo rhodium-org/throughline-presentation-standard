@@ -1,0 +1,23 @@
+uid: LT-0001
+type: link_type
+status: ratified
+title: The link type relates
+text: A thread is about a topic; relating is no grounding.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: relates
+  grounds: false
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:33Z'
+  fingerprint: sha256:c16fdf9dde305ca8efccd50f6ee4324ed70774a7c945c460f137c90dfc01681b
+  content:
+    type: link_type
+    text: A thread is about a topic; relating is no grounding.
+    normative: true
+    derived: false
+    attrs: {}

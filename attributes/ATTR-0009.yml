@@ -1,0 +1,28 @@
+uid: ATTR-0009
+type: attribute
+status: ratified
+title: A series's marking
+text: 'A series''s marking: optional; part of what a signature covers.'
+rationale: 'A series may record marking: the word shown at the top and bottom of
+  every slide after the cover; a series with none has no marking. Its value is text.
+  Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: marking
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:39Z'
+  fingerprint: sha256:4facec65b6b9f3cd2e512fee6220c89a3201b4d0a4abbeffb78556b8a0b582af
+  content:
+    type: attribute
+    text: 'A series''s marking: optional; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

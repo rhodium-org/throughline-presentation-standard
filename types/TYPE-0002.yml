@@ -1,0 +1,21 @@
+uid: TYPE-0002
+type: type
+status: ratified
+title: Paragraphs
+text: Text of any length, one or more lines.
+normative: true
+links:
+- target: meta:BASE-0002
+  type: has_type
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:55Z'
+  fingerprint: sha256:6ab9f7e4c3a3b9adbd7de95e9abbb2a723cddb4a04db58784110c6886368c9c5
+  content:
+    type: type
+    text: Text of any length, one or more lines.
+    normative: true
+    derived: false
+    attrs: {}

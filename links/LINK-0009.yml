@@ -1,0 +1,28 @@
+uid: LINK-0009
+type: link
+status: ratified
+title: A non-goal derives from the intent or a constraint
+text: A non-goal derives from the intent or a constraint.
+normative: true
+links:
+- target: REG-0002
+  type: from
+- target: meta:REG-0001
+  type: to
+- target: REG-0001
+  type: to
+- target: meta:LT-0001
+  type: via
+attrs:
+  scope: this-graph
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:54Z'
+  fingerprint: sha256:482dc14aee09a47f1dd71a02d6362f6ffb289b2fa4adb0bbf71628060b3ee5a7
+  content:
+    type: link
+    text: A non-goal derives from the intent or a constraint.
+    normative: true
+    derived: false
+    attrs: {}

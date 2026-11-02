@@ -1,0 +1,26 @@
+uid: ATTR-0015
+type: attribute
+status: ratified
+title: A series's search terms
+text: 'A series''s search_terms: optional; part of what a signature covers.'
+rationale: The web searches a pipeline run makes for this series, one to a line.
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: search_terms
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:40Z'
+  fingerprint: sha256:f76041a40e9bd36b8db08b15021338a1588506b91fcaeaaf4306742ed7cf7cb4
+  content:
+    type: attribute
+    text: 'A series''s search_terms: optional; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

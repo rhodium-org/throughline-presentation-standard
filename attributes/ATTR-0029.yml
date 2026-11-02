@@ -1,0 +1,28 @@
+uid: ATTR-0029
+type: attribute
+status: ratified
+title: An edition's subject kind
+text: 'An edition''s subject_kind: optional; part of what a signature covers.'
+rationale: 'A edition may record subject_kind: whether a training edition''s subject
+  is a role, a product, or ground common to every role. Its value is one of role,
+  product, common. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: ENUM-0004
+  type: has_type
+attrs:
+  name: subject_kind
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:43Z'
+  fingerprint: sha256:f63e4c65eb0e8fc79a5c1ebf138f3ac7423856de7da807b429767472a990a8e1
+  content:
+    type: attribute
+    text: 'An edition''s subject_kind: optional; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

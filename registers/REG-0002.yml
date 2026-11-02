@@ -1,0 +1,29 @@
+uid: REG-0002
+type: register
+status: ratified
+title: The standard's non-goals live in NG
+text: This standard holds its own non_goal items in NG, folder non-goals/. They bind
+  no series.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: NG
+  dir: non-goals
+  holds: non_goal
+  label: Non-goals
+  scope: this-graph
+  normative: false
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:35Z'
+  fingerprint: sha256:d5f984ee683409e28b62f76038a4eb2f9854c739077f945d9cf36b6638b96809
+  content:
+    type: register
+    text: This standard holds its own non_goal items in NG, folder non-goals/. They
+      bind no series.
+    normative: true
+    derived: false
+    attrs: {}

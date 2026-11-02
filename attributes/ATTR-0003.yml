@@ -1,0 +1,28 @@
+uid: ATTR-0003
+type: attribute
+status: ratified
+title: A series's strapline
+text: 'A series''s strapline: required; part of what a signature covers.'
+rationale: 'A series may record strapline: the cover''s second line. Its value is
+  text. Required. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: strapline
+  required: true
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:38Z'
+  fingerprint: sha256:8539ea05bec4c8e1366e9ce30c6b25df3607c8e8613d063aefa4d013b90a54e1
+  content:
+    type: attribute
+    text: 'A series''s strapline: required; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

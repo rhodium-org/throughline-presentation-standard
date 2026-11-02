@@ -1,0 +1,22 @@
+uid: ENUM-0001
+type: enum
+status: ratified
+title: Cover layout
+text: 'One of: series, deck.'
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+attrs:
+  values: series, deck
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:49Z'
+  fingerprint: sha256:383d81fabd8acb7ac57c45db698128ec6784dc21014f436a656ae7d42604e3c1
+  content:
+    type: enum
+    text: 'One of: series, deck.'
+    normative: true
+    derived: false
+    attrs: {}

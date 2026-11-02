@@ -1,0 +1,26 @@
+uid: ATTR-0030
+type: attribute
+status: ratified
+title: An edition's revision
+text: 'An edition''s revision: optional; not part of what a signature covers.'
+rationale: 'A edition may record revision: which revision of the deck this is. Its
+  value is a whole number.'
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: TYPE-0004
+  type: has_type
+attrs:
+  name: revision
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:44Z'
+  fingerprint: sha256:81ef9bd0e2faf2cf5a9ac30a377e9b07726917bcf3221e9854e546bcfd8f8cf6
+  content:
+    type: attribute
+    text: 'An edition''s revision: optional; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

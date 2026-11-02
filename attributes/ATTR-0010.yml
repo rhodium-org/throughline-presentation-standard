@@ -1,0 +1,26 @@
+uid: ATTR-0010
+type: attribute
+status: ratified
+title: A series's motif
+text: 'A series''s motif: optional; not part of what a signature covers.'
+rationale: 'A series may record motif: a picture drawn on the dividers of every deck
+  in the series. Its value is text.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: motif
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:39Z'
+  fingerprint: sha256:595b7210279064d642981985c7925667671bdecb2218f880b07ddbb85665f459
+  content:
+    type: attribute
+    text: 'A series''s motif: optional; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

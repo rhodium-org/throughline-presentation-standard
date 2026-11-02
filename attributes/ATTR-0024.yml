@@ -1,0 +1,26 @@
+uid: ATTR-0024
+type: attribute
+status: ratified
+title: An edition's presented
+text: 'An edition''s presented: optional; not part of what a signature covers.'
+rationale: 'A edition may record presented: the day the edition is presented. Its
+  value is a date.'
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: TYPE-0003
+  type: has_type
+attrs:
+  name: presented
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:42Z'
+  fingerprint: sha256:99106fdd311f45c4fd98d1096e78ce5d7f0c578ccf1439a94874c65b043e95a7
+  content:
+    type: attribute
+    text: 'An edition''s presented: optional; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,0 +1,28 @@
+uid: ATTR-0014
+type: attribute
+status: ratified
+title: A series's slide styles
+text: 'A series''s slide_styles: optional; part of what a signature covers.'
+rationale: 'The looks the series'' decks are made in, one to a line, the first the
+  series'' own: plain, as the builder has always drawn them, or panels. A series
+  naming none is plain alone.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: slide_styles
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:40Z'
+  fingerprint: sha256:1df85faac914b385c9debb56e035f29e175ca1fed07c496d4edaf89df74ebc1f
+  content:
+    type: attribute
+    text: 'A series''s slide_styles: optional; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

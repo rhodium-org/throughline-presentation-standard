@@ -1,0 +1,27 @@
+uid: ATTR-0048
+type: attribute
+status: ratified
+title: A source's found via
+text: 'A source''s found_via: required; not part of what a signature covers.'
+rationale: 'How the source was found: by the news brief or by a web search, so a
+  pipeline run''s sources can be told from a person''s.'
+normative: true
+links:
+- target: REG-0009
+  type: belongs_to
+- target: ENUM-0010
+  type: has_type
+attrs:
+  name: found_via
+  required: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:48Z'
+  fingerprint: sha256:e591ec01bd68c014fa400cfc76f5e10175e10ebec920d6662a3dfd67b0c3e260
+  content:
+    type: attribute
+    text: 'A source''s found_via: required; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

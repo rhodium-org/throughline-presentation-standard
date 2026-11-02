@@ -1,0 +1,29 @@
+uid: LINK-0002
+type: link
+status: ratified
+title: A training edition includes threads
+text: A training edition includes threads.
+rationale: A series graph links its items with derives_from, implements, mitigates
+  and verifies, which carry grounding, and with refines, satisfies, relates, assumes
+  and includes. A training deck includes a thread that belongs to another deck of
+  its series.
+normative: true
+links:
+- target: REG-0006
+  type: from
+- target: REG-0007
+  type: to
+- target: LT-0002
+  type: via
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:52Z'
+  fingerprint: sha256:ec99bf6e4ecbf79e01580d909fce5894d1edba73ddb5cd2087234c5e33df24b3
+  content:
+    type: link
+    text: A training edition includes threads.
+    normative: true
+    derived: false
+    attrs: {}

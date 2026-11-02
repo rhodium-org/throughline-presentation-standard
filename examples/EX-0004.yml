@@ -10,6 +10,8 @@ normative: false
 links:
 - target: RULE-0010
   type: verifies
+- target: RULE-0055
+  type: verifies
 attrs:
   origin: ai
 ratifications:

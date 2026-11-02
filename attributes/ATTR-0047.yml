@@ -1,0 +1,27 @@
+uid: ATTR-0047
+type: attribute
+status: ratified
+title: A source's official for
+text: 'A source''s official_for: optional; part of what a signature covers.'
+rationale: 'A source may record official_for: the product the source is its maker''s
+  own word on. Its value is text. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0009
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: official_for
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:48Z'
+  fingerprint: sha256:192586291c699893fcfbb93304e24212f8edc68d02c50837ac7719ac8b2b0989
+  content:
+    type: attribute
+    text: 'A source''s official_for: optional; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

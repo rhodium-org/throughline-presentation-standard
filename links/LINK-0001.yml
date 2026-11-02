@@ -1,0 +1,32 @@
+uid: LINK-0001
+type: link
+status: ratified
+title: An edition derives from its series, an intent or the role it is written for
+text: An edition derives from its series, an intent or the role it is written for.
+rationale: 'An edition is one deck of a series: a briefing for a month or a training
+  deck on a subject. It derives from its series.'
+normative: true
+links:
+- target: REG-0006
+  type: from
+- target: REG-0005
+  type: to
+- target: meta:REG-0001
+  type: to
+- target: REG-0013
+  type: to
+- target: meta:LT-0001
+  type: via
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:52Z'
+  fingerprint: sha256:73ab31d5f7618d4435c4adee8da9136f62c418fca268d4290a16ab14b6432e79
+  content:
+    type: link
+    text: An edition derives from its series, an intent or the role it is written
+      for.
+    normative: true
+    derived: false
+    attrs: {}

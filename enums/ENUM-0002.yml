@@ -1,0 +1,22 @@
+uid: ENUM-0002
+type: enum
+status: ratified
+title: Series kind
+text: 'One of: briefing, training.'
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+attrs:
+  values: briefing, training
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:50Z'
+  fingerprint: sha256:c78f33c744ac142f6563909aaf9e18c81f691f4ac7edc82e4c66f81d7ec3c97c
+  content:
+    type: enum
+    text: 'One of: briefing, training.'
+    normative: true
+    derived: false
+    attrs: {}

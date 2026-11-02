@@ -1,0 +1,27 @@
+uid: ATTR-0028
+type: attribute
+status: ratified
+title: An edition's subject
+text: 'An edition''s subject: optional; part of what a signature covers.'
+rationale: 'A edition may record subject: what a training edition is about. Its value
+  is text. Part of what a signature on the item covers.'
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: subject
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:43Z'
+  fingerprint: sha256:905f6a9d437979130435392151648d1f67f049d7b2658f7de9e9ab2b836f28d9
+  content:
+    type: attribute
+    text: 'An edition''s subject: optional; part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

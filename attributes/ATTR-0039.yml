@@ -1,0 +1,27 @@
+uid: ATTR-0039
+type: attribute
+status: ratified
+title: A thread's accent
+text: 'A thread''s accent: optional; not part of what a signature covers.'
+rationale: 'A thread may record accent: that the section stands apart, in the brand''s
+  first to fifth accent. Its value is one of 1, 2, 3, 4, 5. The brand that renders
+  the deck decides the colour each accent is.'
+normative: true
+links:
+- target: REG-0007
+  type: belongs_to
+- target: ENUM-0005
+  type: has_type
+attrs:
+  name: accent
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:46Z'
+  fingerprint: sha256:1fd7c6de97d244b18f950153284b5488f69230102a160527650ce86d33519c93
+  content:
+    type: attribute
+    text: 'A thread''s accent: optional; not part of what a signature covers.'
+    normative: true
+    derived: false
+    attrs: {}

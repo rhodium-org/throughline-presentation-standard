@@ -1,0 +1,29 @@
+uid: REG-0004
+type: register
+status: ratified
+title: The standard's examples live in EX
+text: This standard holds its own example items in EX, folder examples/. They bind
+  no series.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: EX
+  dir: examples
+  holds: example
+  label: Examples
+  scope: this-graph
+  normative: false
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T18:52:35Z'
+  fingerprint: sha256:27684b47e3996ece7665525c8cf7ec6667b7332814974add1bf067670327d493
+  content:
+    type: register
+    text: This standard holds its own example items in EX, folder examples/. They
+      bind no series.
+    normative: true
+    derived: false
+    attrs: {}
