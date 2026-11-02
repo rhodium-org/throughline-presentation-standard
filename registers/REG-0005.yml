@@ -2,10 +2,13 @@ uid: REG-0005
 type: register
 status: ratified
 title: A series graph's series live in SER
-text: A series graph holds its series items in SER, folder series/, exactly one.
-rationale: 'A series graph holds one series item: the series'' name and audience,
-  its cover, what kind of series it is and how its decks are marked. Interests and
-  editions derive from it.'
+text: A series graph holds its series items in SER, folder series/, one or more.
+rationale: 'A series graph holds one series item or several: each is the series''
+  name and audience, its cover, what kind of series it is and how its decks are marked,
+  and interests and editions derive from it. v2.0.0 said exactly one, which the standard''s
+  own consumer contradicts: presentation-manager proposes a new series into an existing
+  graph (service REQ-0028), checks a training series beside a briefing one, and its
+  editions include a thread of another series in the same graph (REQ-0030).'
 normative: true
 links:
 - target: INT-0001
@@ -15,7 +18,6 @@ attrs:
   dir: series
   holds: series
   label: Series
-  exactly_one: true
   origin: ai
 ratifications:
 - by: Henry Grech-Cini

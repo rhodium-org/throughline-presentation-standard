@@ -35,7 +35,7 @@ declared here.
 | Register | Holds |
 |---|---|
 | `vision/` (INT) | why the standard exists |
-| `registers/` (REG) | the registers a series holds (SER, exactly one; ED, THR, SLD, SRC, CLM, TOP, AUD; ROLE when it has roles), and this graph's own |
+| `registers/` (REG) | the registers a series holds (SER, one or more; ED, THR, SLD, SRC, CLM, TOP, AUD; ROLE when it has roles), and this graph's own |
 | `types/` (TYPE), `enums/` (ENUM) | text, paragraphs, date, whole number, and the value sets |
 | `attributes/` (ATTR) | each register's attributes, required or not, signed or not |
 | `links/` (LINK), `link-types/` (LT) | which registers each link joins |
