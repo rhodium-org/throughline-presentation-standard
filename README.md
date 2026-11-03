@@ -18,7 +18,7 @@ A series graph names this repository as its schema source:
 [[sources]]
 namespace = "presentation"
 url = "https://github.com/rhodium-org/throughline-presentation-standard"
-ref = "v2.0.0"
+ref = "v2.2.0"
 schema = true
 ```
 
@@ -29,6 +29,12 @@ series holds that no declaration names is an error. A series may declare its own
 additions (`scope = "this-graph"`), but never redefine one declared here. This needs
 throughline 4.6.2 or later, and `tl init --from-schema` creates every register
 declared here.
+
+`follower/AGENTS.md` is written for the AI agents that write a series: how to work
+through `tl`, what presentation-manager checks beyond these declarations, and how
+slide text is written. Copy it into a new series as `AGENTS.md`, from the version
+the series names; once throughline implements SR-0306, `tl init --from-schema` does
+that for you.
 
 ## What is in this graph
 
