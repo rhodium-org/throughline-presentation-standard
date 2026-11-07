@@ -3,10 +3,15 @@ type: rule
 status: ratified
 title: The lifecycle of an item in a series graph
 text: Every item in a series graph moves through the statuses proposed, draft, deferred,
-  approved, ratified, implemented, verified, suspect, rejected and deleted, along
-  the transitions the standard declares, with draft born, proposed put forward, ratified
-  signed, rejected invalidated, suspect withdrawn and deleted tombstoned.
-rationale: Declared in throughline.toml under [status], [status.roles] and [transitions].
+  ratified, implemented, verified, suspect, rejected and deleted, along the transitions
+  the standard declares, with draft born, proposed put forward, ratified signed,
+  rejected invalidated, suspect withdrawn and deleted tombstoned. Only a person's
+  ratification makes an item signed; no status stands for agreement without one.
+rationale: 'Declared in throughline.toml under [status], [status.roles] and [transitions].
+  approved was removed on 7 November 2026: the graph tool gives it no role (nothing
+  writes or reads it), so it could only ever claim an agreement no signature records,
+  and the presentation manager counted it as signed. Who proposed an item is its
+  origin attribute (human, ai, hybrid), not its status.'
 normative: true
 links:
 - target: INT-0001
@@ -15,15 +20,17 @@ attrs:
   origin: ai
 ratifications:
 - by: Henry Grech-Cini
-  at: '2026-10-30T21:24:27Z'
-  fingerprint: sha256:67e8e5f5a4c07d601cd67e9fb0adeed9c78514fa87ddb0de96f51bdf53c6d0a7
+  id: github:rhodium289
+  at: '2026-11-07T18:39:16Z'
+  fingerprint: sha256:0ddc03cecaf7888eba2a11bb0897d03953db96d26eb52f31e6c86f3a77f0b2d0
   content:
     type: rule
     text: Every item in a series graph moves through the statuses proposed, draft,
-      deferred, approved, ratified, implemented, verified, suspect, rejected and
-      deleted, along the transitions the standard declares, with draft born, proposed
-      put forward, ratified signed, rejected invalidated, suspect withdrawn and deleted
-      tombstoned.
+      deferred, ratified, implemented, verified, suspect, rejected and deleted, along
+      the transitions the standard declares, with draft born, proposed put forward,
+      ratified signed, rejected invalidated, suspect withdrawn and deleted tombstoned.
+      Only a person's ratification makes an item signed; no status stands for agreement
+      without one.
     normative: true
     derived: false
     attrs: {}

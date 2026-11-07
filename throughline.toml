@@ -32,7 +32,7 @@ normative = false
 [status]
 # draft = actively moving toward approval; deferred = acknowledged and grounded
 # but deliberately parked (a backlog wish-list item, not on the active front).
-values = ["proposed", "draft", "deferred", "approved", "ratified", "implemented",
+values = ["proposed", "draft", "deferred", "ratified", "implemented",
           "verified", "suspect", "rejected", "deleted"]
 
 # Semantic status roles (SR-0131): which declared status plays each role the
@@ -58,17 +58,16 @@ tombstone = "deleted"
 # parked without ratification can still be put forward for a human to accept.
 # Every live status also keeps a route to 'suspect' (SR-0175), so that an item
 # whose grounding is withdrawn can be flagged wherever it currently sits — the
-# statuses below 'approved' hold the items whose grounding is least settled.
+# statuses below 'ratified' hold the items whose grounding is least settled.
 # RULE-0054: the moves between statuses
 [transitions]
-proposed    = ["draft", "approved", "ratified", "deferred", "suspect", "rejected", "deleted"]
-draft       = ["proposed", "approved", "deferred", "suspect", "rejected", "deleted"]
-deferred    = ["proposed", "draft", "approved", "suspect", "rejected", "deleted"]
-approved    = ["ratified", "implemented", "deferred", "suspect", "rejected", "deleted"]
+proposed    = ["draft", "ratified", "deferred", "suspect", "rejected", "deleted"]
+draft       = ["proposed", "deferred", "suspect", "rejected", "deleted"]
+deferred    = ["proposed", "draft", "suspect", "rejected", "deleted"]
 ratified    = ["implemented", "suspect", "rejected", "deleted"]
 implemented = ["verified", "suspect", "rejected", "deleted"]
 verified    = ["implemented", "suspect", "deleted"]
-suspect     = ["approved", "ratified", "implemented", "verified", "rejected", "deleted"]
+suspect     = ["ratified", "implemented", "verified", "rejected", "deleted"]
 rejected    = ["draft", "deleted"]
 
 
