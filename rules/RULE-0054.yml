@@ -3,10 +3,15 @@ type: rule
 status: ratified
 title: The lifecycle of an item in a series graph
 text: Every item in a series graph moves through the statuses proposed, draft, deferred,
-  approved, ratified, implemented, verified, suspect, rejected and deleted, along
-  the transitions the standard declares, with draft born, proposed put forward, ratified
-  signed, rejected invalidated, suspect withdrawn and deleted tombstoned.
-rationale: Declared in throughline.toml under [status], [status.roles] and [transitions].
+  ratified, implemented, verified, suspect, rejected and deleted, along the transitions
+  the standard declares, with draft born, proposed put forward, ratified signed,
+  rejected invalidated, suspect withdrawn and deleted tombstoned. Only a person's
+  ratification makes an item signed; no status stands for agreement without one.
+rationale: 'Declared in throughline.toml under [status], [status.roles] and [transitions].
+  approved was removed on 7 November 2026: the graph tool gives it no role (nothing
+  writes or reads it), so it could only ever claim an agreement no signature records,
+  and the presentation manager counted it as signed. Who proposed an item is its
+  origin attribute (human, ai, hybrid), not its status.'
 normative: true
 links:
 - target: INT-0001
