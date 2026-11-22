@@ -18,7 +18,7 @@ A series graph names this repository as its schema source:
 [[sources]]
 namespace = "presentation"
 url = "https://github.com/rhodium-org/throughline-presentation-standard"
-ref = "v2.2.0"
+ref = "v3.0.0"
 schema = true
 ```
 
@@ -26,9 +26,15 @@ The series is then checked against this standard's declarations: the registers,
 attributes, links and link types it declares as items, plus the statuses,
 transitions, grounding and coverage rules in its `throughline.toml`. Anything a
 series holds that no declaration names is an error. A series may declare its own
-additions (`scope = "this-graph"`), but never redefine one declared here. This needs
-throughline 4.6.2 or later, and `tl init --from-schema` creates every register
+additions (`scope = "this-graph"`), but never redefine one declared here. v3.0.0 was
+checked with throughline 6.1.0, and `tl init --from-schema` creates every register
 declared here.
+
+Moving a series from v2 to v3: v3.0.0 retires the `draft` status (with
+meta-standard v1.2.0). After changing `ref`, run `tl migrate` in the series, which
+makes its `draft` items `proposed`. v3.0.0 also lets a slide derive from claims of
+a knowledge graph the series composes (LINK-0011), and makes the claim and source
+registers optional.
 
 `follower/AGENTS.md` is written for the AI agents that write a series: how to work
 through `tl`, what presentation-manager checks beyond these declarations, and how
