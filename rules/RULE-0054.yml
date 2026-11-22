@@ -22,19 +22,17 @@ attrs:
   origin: ai
 ratifications:
 - by: Henry Grech-Cini
-  id: github:rhodium289
-  at: '2026-11-07T18:39:16Z'
-  fingerprint: sha256:0ddc03cecaf7888eba2a11bb0897d03953db96d26eb52f31e6c86f3a77f0b2d0
+  at: '2026-11-22T22:12:24Z'
+  fingerprint: sha256:e292026a66921b83864bc4dd6909d7399a1cf2ae834d39b2ff9d16fe39e39796
   content:
     type: rule
-    text: Every item in a series graph moves through the statuses proposed, draft,
-      deferred, ratified, implemented, verified, suspect, rejected and deleted, along
-      the transitions the standard declares, with draft born, proposed put forward,
-      ratified signed, rejected invalidated, suspect withdrawn and deleted tombstoned.
-      Only a person's ratification makes an item signed; no status stands for agreement
-      without one.
+    text: Every item in a series graph moves through the statuses proposed, deferred,
+      ratified, implemented, verified, suspect, rejected and deleted, along the transitions
+      the standard declares, with proposed born and put forward, ratified signed,
+      rejected invalidated, suspect withdrawn and deleted tombstoned. Only a person's
+      ratification makes an item signed; no status stands for agreement without one.
     normative: true
     derived: false
     attrs: {}
-  revision: 40b7c4c775a2a901f964cb021c43f03c252e0c0a
+  id: github:rhodium289
 key: 9f29d699-034d-4255-afe0-f656eca339b1

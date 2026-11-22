@@ -1,6 +1,6 @@
 uid: LINK-0011
 type: link
-status: proposed
+status: ratified
 title: A slide derives from claims of a graph the series composes
 text: A slide derives from claims of a graph the series composes.
 rationale: Lets a slide show a knowledge graph's claim instead of a copy, so a deck
@@ -16,3 +16,13 @@ links:
 attrs:
   outside: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-22T22:12:21Z'
+  fingerprint: sha256:4c9fd2869b6dd012fa8147e5b41337ce7722b49dc4ccad9f76f303965f77a45d
+  content:
+    type: link
+    text: A slide derives from claims of a graph the series composes.
+    normative: true
+    derived: false
+    attrs: {}
