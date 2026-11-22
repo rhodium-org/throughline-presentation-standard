@@ -5,7 +5,8 @@ title: A series graph's sources live in SRC
 text: A series graph holds its source items in SRC, folder sources/.
 rationale: 'A source is one document a claim rests on: where it is, who published
   it, when it was published and when it was last checked. A source may stand on its
-  own.'
+  own. Optional from v3.0.0: a series built from a knowledge graph takes its sources
+  from that graph.'
 normative: true
 links:
 - target: INT-0001
@@ -16,6 +17,7 @@ attrs:
   holds: source
   label: Sources
   origin: ai
+  required: false
 ratifications:
 - by: Henry Grech-Cini
   at: '2026-11-01T18:52:36Z'

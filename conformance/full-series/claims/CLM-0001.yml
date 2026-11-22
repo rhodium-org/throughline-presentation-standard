@@ -1,6 +1,6 @@
 uid: CLM-0001
 type: claim
-status: draft
+status: proposed
 title: A graph can take its schema from a source
 text: A series may name a standard as its schema source.
 normative: true

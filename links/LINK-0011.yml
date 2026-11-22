@@ -1,0 +1,18 @@
+uid: LINK-0011
+type: link
+status: proposed
+title: A slide derives from claims of a graph the series composes
+text: A slide derives from claims of a graph the series composes.
+rationale: Lets a slide show a knowledge graph's claim instead of a copy, so a deck
+  and a document derived from one knowledge graph share each claim (knowledge INT-0001).
+normative: true
+links:
+- target: REG-0008
+  type: from
+  stamp: sha256:ebf9b97e6efb14432ab0eedbc2ba396b8b4e7cd000d241e83a0b7126f172ad9b
+- target: meta:LT-0001
+  type: via
+  stamp: sha256:858fa56d07be58a5c2d844428e6a360c14942e590add5afa35b90f46f257120b
+attrs:
+  outside: true
+  origin: ai
