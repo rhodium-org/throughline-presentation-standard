@@ -3,8 +3,9 @@ type: register
 status: ratified
 title: A series graph's claims live in CLM
 text: A series graph holds its claim items in CLM, folder claims/.
-rationale: A claim is one statement a slide makes, resting on a source, and what
-  kind of statement it is.
+rationale: 'A claim is one statement a slide makes, resting on a source, and what
+  kind of statement it is. Optional from v3.0.0: a series built from a knowledge
+  graph shows that graph''s claims (LINK-0011) and holds none of its own.'
 normative: true
 links:
 - target: INT-0001
@@ -15,6 +16,7 @@ attrs:
   holds: claim
   label: Claims
   origin: ai
+  required: false
 ratifications:
 - by: Henry Grech-Cini
   at: '2026-11-01T18:52:36Z'

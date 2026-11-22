@@ -1,6 +1,6 @@
 uid: ROLE-0001
 type: role
-status: draft
+status: proposed
 title: Analyst
 text: Works out what a change means for a client.
 normative: true

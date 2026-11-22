@@ -1,6 +1,6 @@
 uid: SRC-0001
 type: source
-status: draft
+status: proposed
 title: An example source
 text: The document the claim rests on.
 normative: true

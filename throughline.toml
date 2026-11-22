@@ -8,7 +8,7 @@ suggested_namespace = "presentation"
 [[sources]]
 namespace = "meta"
 url = "https://github.com/rhodium-org/throughline-standard-standard"
-ref = "v1.0.0"
+ref = "v1.2.0"
 schema = true
 
 [grounding]
@@ -26,7 +26,7 @@ delivery_roots = ["business_need", "risk", "constraint", "series"]
 # link-types/. Each takes the ratified rule that justifies it as its rationale.
 
 [status]
-# draft = actively moving toward approval; deferred = acknowledged and grounded
+# deferred = acknowledged and grounded
 # but deliberately parked (a backlog wish-list item, not on the active front).
 values = ["deferred", "implemented", "verified"]
 
@@ -41,14 +41,13 @@ values = ["deferred", "implemented", "verified"]
 # statuses below 'ratified' hold the items whose grounding is least settled.
 # RULE-0054: the moves between statuses
 [transitions]
-proposed    = ["draft", "ratified", "deferred", "suspect", "rejected", "deleted"]
-draft       = ["proposed", "deferred", "suspect", "rejected", "deleted"]
-deferred    = ["proposed", "draft", "suspect", "rejected", "deleted"]
+proposed    = ["ratified", "deferred", "suspect", "rejected", "deleted"]
+deferred    = ["proposed", "suspect", "rejected", "deleted"]
 ratified    = ["implemented", "suspect", "rejected", "deleted"]
 implemented = ["verified", "suspect", "rejected", "deleted"]
 verified    = ["implemented", "suspect", "deleted"]
 suspect     = ["ratified", "implemented", "verified", "rejected", "deleted"]
-rejected    = ["draft", "deleted"]
+rejected    = ["proposed", "deleted"]
 
 
 # Conformance is shown, not asserted: every rule has an example that verifies

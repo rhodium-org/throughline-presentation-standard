@@ -1,6 +1,6 @@
 uid: THR-0001
 type: thread
-status: draft
+status: proposed
 title: Schemas taken from a source
 text: Graphs stopped copying their model.
 normative: true

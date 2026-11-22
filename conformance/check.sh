@@ -24,7 +24,7 @@ expect_fail() {  # example, EX item, text the failure must contain
 }
 
 expect_pass full-series EX-0001
-expect_fail bad-date    EX-0002 "attribute 'checked' is declared date but holds 'next tuesday'"
+expect_fail bad-date    EX-0002 'checked: "next tuesday" is not a date'
 expect_fail wide-layout EX-0003 "cannot be redefined here (SR-0276)"
 expect_fail no-slug     EX-0004 "required attribute 'slug' missing"
 exit $fail
